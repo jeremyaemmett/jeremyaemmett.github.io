@@ -1,6 +1,6 @@
 ## Python Toolshed
 
-Handy custom Python functions and one/multi-liners
+Handy custom Python bits and pieces
 
 ---
 
@@ -30,3 +30,4 @@ ForEach ($thing in $things) {
     Write-Output "It highlights it using the GitHub style"
 }
 ```
+### Unit Conversions
