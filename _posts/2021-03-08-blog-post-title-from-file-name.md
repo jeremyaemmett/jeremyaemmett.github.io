@@ -6,7 +6,7 @@ Handy custom Python bits and pieces
 
 ### Plotting
 
-#### Neatly formatted axis
+#### Neatly format an axis
 
 ```python
 def format_axis1(ax):
@@ -42,7 +42,7 @@ def find_csv_filenames( path_to_dir, suffix=".csv" ):
     return [ filename for filename in filenames if filename.endswith( suffix ) ]
 ```
 
-#### Read a CSV data column
+#### Read a CSV column
 
 ```python
 def read_csv_header(filename, column_idx, var_type, header_lines):
@@ -64,6 +64,17 @@ def read_csv_header(filename, column_idx, var_type, header_lines):
                     val = float(row[column_idx])
             vals.append(val)
     return vals
+```
+
+#### Read CSV data into a list
+
+```python
+def read_csv_array(filename):
+
+    with open(filename, newline='') as csvfile:
+        data = list(csv.reader(csvfile))
+
+    return(data)
 ```
 
 
