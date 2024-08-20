@@ -1,5 +1,7 @@
 ## Python Toolbox
 
+[a relative link](test.md)
+
 Handy custom Python bits and pieces
 
 ---
