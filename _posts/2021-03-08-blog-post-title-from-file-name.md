@@ -1,6 +1,6 @@
 ## Python Toolbox
 
-[a relative link](/blob/main/_posts/test.md)
+[a relative link](/test.md)
 
 Handy custom Python bits and pieces
 
