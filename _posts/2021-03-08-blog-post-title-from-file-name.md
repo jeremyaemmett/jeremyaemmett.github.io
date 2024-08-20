@@ -6,7 +6,7 @@ Handy custom Python bits and pieces
 
 ### Plotting
 
-#### Neatly format an axis
+#### _Neatly format an axis_
 
 ```python
 def format_axis1(ax):
@@ -19,22 +19,11 @@ def format_axis1(ax):
     return()
 ```
 
-#### Some PowerShell Code
-
-```powershell
-Write-Host "This is a powershell Code block";
-
-# There are many other languages you can use, but the style has to be loaded first
-
-ForEach ($thing in $things) {
-    Write-Output "It highlights it using the GitHub style"
-}
-```
 ### Unit Conversions
 
 ### File Handling
 
-#### Find files by type
+#### _Find files by type_
 
 ```python
 def find_csv_filenames( path_to_dir, suffix=".csv" ):
@@ -42,7 +31,7 @@ def find_csv_filenames( path_to_dir, suffix=".csv" ):
     return [ filename for filename in filenames if filename.endswith( suffix ) ]
 ```
 
-#### Read a CSV column
+#### _Read a CSV column_
 
 ```python
 def read_csv_header(filename, column_idx, var_type, header_lines):
@@ -66,7 +55,7 @@ def read_csv_header(filename, column_idx, var_type, header_lines):
     return vals
 ```
 
-#### Read CSV data into a list
+#### _Read CSV data into a list_
 
 ```python
 def read_csv_array(filename):
