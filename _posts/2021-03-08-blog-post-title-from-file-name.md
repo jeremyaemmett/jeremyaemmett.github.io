@@ -1,6 +1,6 @@
 ## Python Toolbox
 
-[a relative link](https://jeremyaemmett.github.io/2021/03/08/test.md)
+[a relative link](https://jeremyaemmett.github.io/2021/03/08/test.html)
 
 Handy custom Python bits and pieces
 
