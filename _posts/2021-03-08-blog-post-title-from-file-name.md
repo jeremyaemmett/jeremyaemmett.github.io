@@ -1,6 +1,7 @@
 ## Python Toolbox
 
 [a relative link](/test.md)
+[a link](https://github.com/user/repo/blob/branch/test.md)
 
 Handy custom Python bits and pieces
 
