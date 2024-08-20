@@ -5,6 +5,8 @@
 [link2](https://jeremyaemmett.github.io
 /_posts/test.md)
 
+[link3](https://github.com/jeremyaemmett/jeremyaemmett.github.io/tree/main/_posts/test.md)
+
 Handy custom Python bits and pieces
 
 ---
