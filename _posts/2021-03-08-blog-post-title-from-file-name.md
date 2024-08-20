@@ -2,6 +2,9 @@
 
 [link](https://jeremyaemmett.github.io/2021/03/08/test.html)
 
+[link2](https://jeremyaemmett.github.io
+/_posts/test.html)
+
 Handy custom Python bits and pieces
 
 ---
