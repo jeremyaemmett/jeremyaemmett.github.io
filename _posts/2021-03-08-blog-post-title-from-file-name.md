@@ -1,7 +1,6 @@
 ## Python Toolbox
 
-[a relative link](/test.md)
-[a link](https://github.com/jeremyaemmett/repo/blob/branch/test.md)
+[link](https://jeremyaemmett.github.io/2021/03/08/test.html)
 
 Handy custom Python bits and pieces
 
