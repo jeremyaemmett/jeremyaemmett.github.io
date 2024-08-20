@@ -4,16 +4,15 @@ Handy custom Python functions and one/multi-liners
 
 ---
 
-### This is a header
+### Plotting
 
-#### Some T-SQL Code
+#### Neatly formatted axis
 
 ```python
 def format_axis1(ax):
 
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
-    #ax.set_xlabel(' ')
     ax.set_facecolor('whitesmoke')
     ax.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.5, axis='y')
 
