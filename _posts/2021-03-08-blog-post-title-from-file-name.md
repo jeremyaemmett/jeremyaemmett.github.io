@@ -5,7 +5,7 @@
 [link2](https://jeremyaemmett.github.io
 /_posts/test.md)
 
-[link3](/_posts/test.md)
+[link3](test.md)
 
 Handy custom Python bits and pieces
 
