@@ -8,11 +8,16 @@ Handy custom Python functions and one/multi-liners
 
 #### Some T-SQL Code
 
-```tsql
-SELECT This, [Is], A, Code, Block -- Using SSMS style syntax highlighting
-    , REVERSE('abc')
-FROM dbo.SomeTable s
-    CROSS JOIN dbo.OtherTable o;
+```python
+def format_axis1(ax):
+
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    #ax.set_xlabel(' ')
+    ax.set_facecolor('whitesmoke')
+    ax.grid(color='gray', linestyle='--', linewidth=0.5, alpha=0.5, axis='y')
+
+    return()
 ```
 
 #### Some PowerShell Code
