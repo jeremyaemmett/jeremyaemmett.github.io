@@ -12,5 +12,7 @@ Handy custom Python bits and pieces
 
 ### [Unit Conversions](unit_conversions.md)
 
+### [Lists and Arrays](lists_and_arrays.md)
+
 
 
