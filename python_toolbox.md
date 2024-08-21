@@ -2,7 +2,7 @@
 
 Handy custom Python bits and pieces
 
-### [Plotting](plotting.html)
+### [Plotting](plotting.md)
 
 ---
 
