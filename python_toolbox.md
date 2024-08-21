@@ -14,5 +14,7 @@ Handy custom Python bits and pieces
 
 ### [Lists and Arrays](lists_and_arrays.md)
 
+### [Algorithms](algorithms.md)
+
 
 
