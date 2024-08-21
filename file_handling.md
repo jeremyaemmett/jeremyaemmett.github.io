@@ -1,6 +1,6 @@
 ### File Handling
 
-#### _[Back to Python Toolbox](python_toolbox.md)_
+#### _[Python Toolbox](python_toolbox.md)_
 
 #### Find files by type
 
