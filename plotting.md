@@ -1,4 +1,4 @@
-## Python Toolbox
+## Plotting page hahaha
 
 Handy custom Python bits and pieces
 
