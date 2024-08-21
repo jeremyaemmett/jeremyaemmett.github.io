@@ -1,6 +1,6 @@
 ## Plotting
 
-Python Toolbox
+_Python Toolbox_
 
 ---
 
