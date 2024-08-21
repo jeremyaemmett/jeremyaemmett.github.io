@@ -4,7 +4,7 @@ Handy custom Python bits and pieces
 
 ---
 
-### Plotting
+### [Plotting](/plotting.html)
 
 #### _Neatly format an axis_
 
