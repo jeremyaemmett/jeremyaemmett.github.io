@@ -1,8 +1,8 @@
 ## _Python Toolbox_
 
-#### _[← Main](index.md)_
-
 Handy custom Python bits and pieces
+
+#### _[← Main](index.md)_
 
 ---
 
