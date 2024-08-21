@@ -1,6 +1,6 @@
 ## _Python Toolbox_
 
-#### _[< Main](index.md)_
+#### _[← Main](index.md)_
 
 Handy custom Python bits and pieces
 
