@@ -2,6 +2,8 @@
 
 #### _[Python Toolbox](python_toolbox.md)_
 
+---
+
 #### Find files by type
 
 ```python
