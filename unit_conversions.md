@@ -1,47 +1,26 @@
-### File Handling
+### Unit Conversions
 #### _[&larr; Python Toolbox](python_toolbox.md)_
 
 ---
 
-#### Find files by type
+#### Molecular weight of a molecule
 
 ```python
-def find_csv_filenames( path_to_dir, suffix=".csv" ):
-    filenames = listdir(path_to_dir)
-    return [ filename for filename in filenames if filename.endswith( suffix ) ]
-```
-
-#### Read a CSV column
-
-```python
-def read_csv_header(filename, column_idx, var_type, header_lines):
-    with open(filename) as f:
-        reader = csv.reader(f)
-        if header_lines != 0:
-            for h in range(0,header_lines):
-                header = next(reader)
-        vals = []
-        for row in reader:
-            if var_type == 'string':
-                val = row[column_idx]
-            if var_type == 'integer':
-                val = int(row[column_idx])
-            if var_type == 'float':
-                if row[column_idx] == '':
-                    val = -9999.0
-                else:
-                    val = float(row[column_idx])
-            vals.append(val)
-    return vals
-```
-
-#### Read CSV data into a list
-
-```python
-def read_csv_array(filename):
-
-    with open(filename, newline='') as csvfile:
-        data = list(csv.reader(csvfile))
-
-    return(data)
+def molecular_weight(sub):
+    # Output: 'mw_g_mol' = molecular weight of a substance (g/mol)
+    # Input: 'sub' lower-case substance name e.g. 'co2'
+    mw_g_mol = None
+    if sub == 'co2':
+        mw_g_mol = 44.01
+    if sub == 'c':
+        mw_g_mol = 12.0107
+    if sub == 'o2':
+        mw_g_mol = 31.9988
+    if sub == 'ch4':
+        mw_g_mol = 16.043
+    if sub == 'h2':
+        mw_g_mol = 2.016
+    if sub == 'ace':
+        mw_g_mol = 59.044
+    return mw_g_mol
 ```
