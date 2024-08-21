@@ -1,3 +1,3 @@
 Code archive and hobby projects
 
-### [Plotting](python_toolbox.html)
+### [Python Toolbox](python_toolbox.html)
