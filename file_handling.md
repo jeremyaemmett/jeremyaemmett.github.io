@@ -3,6 +3,14 @@
 
 ---
 
+#### Find all files in a directory
+
+```python
+    # Find all files in the current generation
+    genpath = 'C:/Users/Jeremy/Desktop/Churchill_Data/modelTune/' + site + '/' + str(gen) + '/'
+    files = [f for f in listdir(genpath) if isfile(join(genpath, f))]
+```
+
 #### Find files by type
 
 ```python
