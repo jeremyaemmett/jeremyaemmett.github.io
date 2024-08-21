@@ -1,5 +1,5 @@
 ## Plotting
-#### _[← Python Toolbox](python_toolbox.md)_
+#### _[&larr; Python Toolbox](python_toolbox.md)_
 
 ---
 
