@@ -1,4 +1,4 @@
-## python_toolbox.md
+## _Python Toolbox_
 
 Handy custom Python bits and pieces
 
@@ -10,7 +10,7 @@ Handy custom Python bits and pieces
 
 ### File Handling
 
-#### _Find files by type_
+#### Find files by type
 
 ```python
 def find_csv_filenames( path_to_dir, suffix=".csv" ):
@@ -18,7 +18,7 @@ def find_csv_filenames( path_to_dir, suffix=".csv" ):
     return [ filename for filename in filenames if filename.endswith( suffix ) ]
 ```
 
-#### _Read a CSV column_
+#### Read a CSV column
 
 ```python
 def read_csv_header(filename, column_idx, var_type, header_lines):
@@ -42,7 +42,7 @@ def read_csv_header(filename, column_idx, var_type, header_lines):
     return vals
 ```
 
-#### _Read CSV data into a list_
+#### Read CSV data into a list
 
 ```python
 def read_csv_array(filename):
