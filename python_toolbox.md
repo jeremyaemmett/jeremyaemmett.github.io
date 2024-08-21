@@ -2,7 +2,7 @@
 
 Handy custom Python bits and pieces
 
-#### _[← Main](index.md)_
+#### _[&larr; Main](index.md)_
 
 ---
 
