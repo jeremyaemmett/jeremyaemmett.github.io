@@ -1,5 +1,4 @@
 ### File Handling
-
 #### _[Python Toolbox](python_toolbox.md)_
 
 ---
