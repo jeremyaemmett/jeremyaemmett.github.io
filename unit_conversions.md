@@ -84,3 +84,63 @@ def ppm2molm3(ppm, sub):
     molm3 = gm3 / molecular_weight(sub)
     return molm3
 ```
+
+```python
+def molm3d2kgm3hr(molm3d, sub):
+    # Output: 'kgm3hr' reaction rate in (kg/m3/hr)
+    # Input: 'molm3d' reaction rate in (mol/m3/d); 'sub' lower-case substance name e.g. 'co2'
+    kgm3d = mol2kg(molm3d, sub)
+    kgm3hr = kgm3d / 24.0
+    return kgm3hr
+```
+
+```python
+def kgm3hr2molm3d(kgm3hr, sub):
+    # Output: 'molm3d' reaction rate in (mol/m3/d); 'sub' lower-case substance name e.g. 'co2'
+    # Input: 'kgm3hr' reaction rate in (kg/m3/hr)
+    molm3hr = kg2mol(kgm3hr, sub)
+    molm3d = 24.0 * molm3hr
+    return molm3d
+```
+
+```python
+def molm2d2kgm2d(molm2d, sub):
+    # Output: 'kgm2hr' reaction rate in (kg/m2/hr)
+    # Input: 'molm2d' reaction rate in (mol/m2/d); 'sub' lower-case substance name e.g. 'co2'
+    kgm2d = mol2kg(molm2d, sub)
+    return kgm2d
+```
+
+```python
+def nmolm2s2mgm2hr(nmolm2s, sub):
+    # Output: 'mgm2hr' flux in (mg/m2/hr); 'sub' lower-case substance name e.g. 'co2'
+    # Input: 'nmolm2s2' flux in (nano moles/m2/s)
+    molm2s = (1.0e-9) * nmolm2s
+    kgm2s = mol2kg(molm2s, sub)
+    mgm2s = (1.0e6) * kgm2s
+    mgm2hr = mgm2s * 60.0 * 60.0
+    return mgm2hr
+```
+
+```python
+def datetime2doy(date_str, time_str):
+    date_split = date_str.split('/')
+    time_split = time_str.split(':')
+    day = float(date(int(date_split[2]), int(date_split[0]), int(date_split[1])).timetuple().tm_yday)
+    time = float(time_split[0])/24.0 + float(time_split[1])/(60.0*24.0)
+    day_of_year = str(day+time)
+    return day_of_year
+```
+
+```python
+def yyyymmddhhmm2doy(yyyymmddhhmm):
+    year = yyyymmddhhmm[0:4]
+    month = yyyymmddhhmm[4:6]
+    day = yyyymmddhhmm[6:8]
+    hour = yyyymmddhhmm[8:10]
+    minute = yyyymmddhhmm[10:12]
+    yyyymmdd = float(date(int(year), int(month), int(day)).timetuple().tm_yday)
+    time = float(hour)/24.0 + float(minute)/(60.0*24.0)
+    day_of_year = str(yyyymmdd+time)
+    return day_of_year
+```
