@@ -1,6 +1,6 @@
 ## Plotting
 
-_Python Toolbox_
+### _[Python Toolbox](python_toolbox.md)_
 
 ---
 
