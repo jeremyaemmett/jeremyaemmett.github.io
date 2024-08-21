@@ -2,6 +2,8 @@
 
 Handy custom Python bits and pieces
 
+#### _[Main](index.md)_
+
 ---
 
 ### [Plotting](plotting.md)
