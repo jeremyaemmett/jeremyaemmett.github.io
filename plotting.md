@@ -1,10 +1,8 @@
-## Plotting page hahaha
+## Plotting
 
 Handy custom Python bits and pieces
 
 ---
-
-### [Plotting](/plotting.html)
 
 #### _Neatly format an axis_
 
