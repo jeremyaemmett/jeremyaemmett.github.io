@@ -25,6 +25,7 @@ def molecular_weight(sub):
     return mw_g_mol
 ```
 
+```python
 def mol2kg(mol, sub):
     # Output: 'kg' kilograms of a substance (kg)
     # Input: 'mol' moles of a substance (mol); 'sub' lower-case substance name e.g. 'co2'
@@ -32,6 +33,7 @@ def mol2kg(mol, sub):
     mw_kg_mol = mw_g_mol / 1000.0
     kg = mol * mw_kg_mol
     return kg
+```
 
 ```python
 def mol2g(mol, sub):
