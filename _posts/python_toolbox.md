@@ -4,7 +4,7 @@ Handy custom Python bits and pieces
 
 ---
 
-### [Plotting](plotting.html)
+### [Plotting](_posts/python_toolbox.md)
 
 ### Unit Conversions
 
