@@ -1,6 +1,6 @@
 ## Plotting
 
-Handy custom Python bits and pieces
+Python Toolbox
 
 ---
 
