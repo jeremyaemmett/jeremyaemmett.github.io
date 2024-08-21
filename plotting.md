@@ -1,4 +1,4 @@
-## Plotting #### _[Python Toolbox](python_toolbox.md)_
+## Plotting
 
 #### _[Python Toolbox](python_toolbox.md)_
 
