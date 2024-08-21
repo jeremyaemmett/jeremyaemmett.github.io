@@ -1,6 +1,6 @@
 ## Python Toolbox
 
-[link3](/test.html)
+### [Plotting](/test.html)
 
 Handy custom Python bits and pieces
 
