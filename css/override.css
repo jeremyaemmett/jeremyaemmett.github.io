@@ -3,7 +3,7 @@ hr {
   margin-bottom: 20px;
 }
 
-/* Post navigation links */
+/* Post navigation links
 .post_navi {
   display: flex;
 }
@@ -41,5 +41,5 @@ hr {
   top: 50%;
   transform: translateY(-50%);
   font-size: 2.5em;
-  opacity: 0.3;
+  opacity: 0.3; */
 }
