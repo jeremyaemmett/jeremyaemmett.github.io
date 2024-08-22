@@ -4,4 +4,4 @@
 
 ---
 
-#### _![Surface GHG Fluxes](fluxes_raw.xlsx)_
+#### _[Surface GHG Fluxes](fluxes_raw.xlsx)_
