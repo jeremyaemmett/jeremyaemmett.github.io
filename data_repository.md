@@ -4,4 +4,4 @@
 
 ---
 
-#### _[Surface GHG Fluxes](index.md)_
+#### _![Surface GHG Fluxes](fluxes_raw.xlsx)_
