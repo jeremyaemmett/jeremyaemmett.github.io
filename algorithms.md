@@ -1,9 +1,9 @@
-### Algoritms
+### Algorithms
 #### _[&larr; Python Toolbox](python_toolbox.md)_
 
 ---
 
-#### Crank-Nicolson Diffussion
+#### Crank-Nicolson Diffusion
 
 ```python
 import numpy as np
