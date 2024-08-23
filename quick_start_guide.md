@@ -10,4 +10,4 @@ A number of accessory codes are included - these assist with standardization of 
 
 ---
 
-#### _[Quick Start Guide](index.md)_
+#### _[Quick Start Guide](quick_start_guide.md)_
