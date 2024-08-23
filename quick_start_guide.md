@@ -4,4 +4,4 @@
 
 ---
 
-#### _[Installation](quick_start_guide.md)_
+## Installation
