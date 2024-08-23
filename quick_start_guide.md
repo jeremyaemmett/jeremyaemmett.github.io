@@ -6,6 +6,6 @@
 
 ## Installation
 
-## Required input
+## Required input files
 
 ## Running the model
