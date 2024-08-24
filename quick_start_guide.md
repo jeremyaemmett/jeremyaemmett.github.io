@@ -6,7 +6,9 @@
 
 ## Installation
 
-## Required input files
+## Input data
+
+VU-MALM requires 
 
 ## Running the model
 
