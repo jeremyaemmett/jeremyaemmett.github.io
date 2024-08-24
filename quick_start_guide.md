@@ -8,7 +8,7 @@
 
 ## Input data
 
-VU-MALM requires 
+VU-MALM's minimum input forcings are vertical soil temperature, moisture, and carbon profiles.
 
 ## Running the model
 
