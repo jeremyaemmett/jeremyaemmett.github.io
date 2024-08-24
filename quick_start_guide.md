@@ -10,6 +10,8 @@
 
 VU-MALM's minimum input data are vertical profiles of daily-mean soil temperature (degC), moisture (m3/m3), and carbon (m3/m3), specified for each day of year over a full year.
 
+Choose desired CryoGrid-output forcing data ('T.txt', 'water.txt', etc.), by specifying the name of the CryoGrid folder containing those files: i.e./e.g. by specifying params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_.
+
 ## Running the model
 
 If much of the vertical domain consists of subsaturated layers, either:
@@ -25,5 +27,3 @@ Checklist:
   - Set autotune_name = {desired folder name for tuning results}
   - Set autotune_mode = 'run' _or_ 'plot' _in params.py_, depending on the desired function
   - Set the desired sims_per_first_generation, sims_per_generation, and n_generations _in params.py_
-
-Choose the CryoGrid output files to use as VU-MALM forcing input, by specifying e.g. params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_. This is invoked by _main.py_ in its call to _forcing.all_forcing()_, where 'T.txt', 'water.txt', etc. are read into the needed forcing array variables.
