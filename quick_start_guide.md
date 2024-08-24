@@ -15,7 +15,8 @@ VU-MALM requires
 If much of the vertical domain consists of subsaturated layers, either:
   - Set 'adaptive_dt_flag = True' in _params.py_
   - Set 'dt' = {value <= 0.1/24.0 days}
-Diffusive gas transport rates are four orders of magnitude higher in subsaturated vs saturated layers. Too-large timesteps will result in runaway numerical instability (unrealistically high rates preceding NaN output values), or unrealistic ringing between negative and positive rates. Numerical stability can be further improved by increasing the 'diff_n_dt in _params.py_ (the number of diffusion sub-timesteps within the main computation timestep).
+To avoid numerical instability (unrealistically high rate magnitudes, NaNs, and positive/negative ringing)
+Numerical stability can be further improved by increasing the 'diff_n_dt in _params.py_ (the number of diffusion sub-timesteps within the main computation timestep).
 
 ## Automatic model tuning
 
