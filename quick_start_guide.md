@@ -12,6 +12,8 @@ VU-MALM requires
 
 ## Running the model
 
+Use adaptive time stepping if a significant portion or the entirety of the vertical domain is subsaturated. High diffusive gas transport rates can occur across subsaturated layers, and coarse timesteps will result in runaway numerical instability (unrealistically high rates preceding NaN output values), or unrealistic ringing between negative and positive rates.
+
 ## Automatic model tuning
 
 Checklist:
