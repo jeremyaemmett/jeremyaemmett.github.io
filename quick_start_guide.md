@@ -10,7 +10,7 @@
 
 ## Running the model
 
-## Autotuning Code
+## Automatic model tuning
 
 Checklist:
   - Set autotune_flag = True _in params.py_
