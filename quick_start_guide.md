@@ -8,7 +8,7 @@
 
 ## Input data
 
-VU-MALM's minimum input data are vertical profiles of daily-mean soil temperature, moisture, and carbon profiles, specified for each day of year over a full year.
+VU-MALM's minimum input data are vertical profiles of daily-mean soil temperature (degC), moisture (m3/m3), and carbon (m3/m3), specified for each day of year over a full year.
 
 ## Running the model
 
