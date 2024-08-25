@@ -10,4 +10,10 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
     ## def cn_diffusion
 
-      - Calculate layer 'sigma' values from the layer diffusivities: 
+      - Calculate layer 'sigma' values from the layer diffusivities:
+      
+      - Set up the 'A' matrix
+
+      - Set up the 'B' matrix
+   
+      - Calculate B * U
