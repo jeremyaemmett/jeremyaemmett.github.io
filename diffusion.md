@@ -25,7 +25,7 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 \end{pmatrix}
 \end{equation}
 
-$$ \begin{bmatrix} X \\ Y \end{bmatrix} $$
+$ \begin{bmatrix} X \\ Y \end{bmatrix} $
 
       - Give the surface layer concentration (U*[0]) its expected value at the next main time step, according to the computed surface flux
    
