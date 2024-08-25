@@ -43,7 +43,7 @@ If the vertical domain contains subsaturated layers, rapid diffusion through air
 ## 4. Running VU-MALM
 
 ### Run '_main.py_'. 
-_main.py_ contains calls to every routine and the main computational time loop.
+_main.py_ contains calls to every routine, as well as the main computational time loop.
 
 ## Automatic model tuning
 
