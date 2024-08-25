@@ -13,3 +13,7 @@
 - **get forcing data** | forcing.py
 
 - **initialize variables** | init.py
+
+- **prepare output files** | output2.py
+
+  ### main computatoinal time loop
