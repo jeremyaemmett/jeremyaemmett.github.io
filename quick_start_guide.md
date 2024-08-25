@@ -1,3 +1,4 @@
+
 # Quick Start Guide
 
 #### _[&larr; VU-MALM](vu_malm.md)_
@@ -8,9 +9,20 @@
 
 ## Input data
 
-VU-MALM's minimum input data are vertical profiles of daily-mean soil temperature (degC), moisture (m3/m3), and carbon (m3/m3), specified for each day of year over a full year.
+VU-MALM's minimum input data are vertical soil profiles of daily-mean: 
+- temperature (degC)
+- moisture (m3/m3)
+- carbon (m3/m3)
+...specified for each day of year over a full year.
 
-Choose desired CryoGrid-output forcing data ('T.txt', 'water.txt', etc.), by specifying the name of the CryoGrid folder containing those files: i.e./e.g. by specifying params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_.
+VU-MALM is configured by default to receive these from the output of the CryoGrid model. 
+
+The CryoGrid model is initialized with a prescribed:
+- soil composition profile (air, water, organic, and mineral volumetric percentages vs. depth)
+- ERA5 air temperature and precipitation history vs. time
+- surface albedo, root decay depth, surface roughness, etc.
+
+Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.), by specifying the name of the CryoGrid folder containing those files: i.e./e.g. by specifying params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_.
 
 ## Running the model
 
