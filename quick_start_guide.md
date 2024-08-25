@@ -55,10 +55,13 @@ _main.py_ calls every routine and contains the main computational time loop.
 ## Automatic model tuning
 
 Checklist:
+**1.**
   - Set autotune_flag = True _in params.py_
   - Set autotune_name = {desired folder name for tuning results}
   - Set autotune_mode = 'run' _or_ 'plot' _in params.py_, depending on the desired function
   - Set the desired sims_per_first_generation, sims_per_generation, and n_generations _in params.py_
 
+**2.**
 - Run autotune.py
-- Output is written to: autotune/{site}/{autotune_name}
+  
+  Output is written to: autotune/{site}/{autotune_name}
