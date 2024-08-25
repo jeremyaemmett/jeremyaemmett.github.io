@@ -14,4 +14,6 @@ A number of accessory codes are included - these assist with standardization of 
 
 #### _[Code Architecture](code_architecture.md)_
 
+#### _[Full Source Code](code_architecture.md)_
+
 #### _[Trouble Shooting](quick_start_guide.md)_
