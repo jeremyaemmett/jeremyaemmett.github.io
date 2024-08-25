@@ -16,6 +16,15 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
         A = test, B = test, and U* = the future concentration profile
 
+        \begin{equation}
+\begin{pmatrix}
+  1       & x^1_0   & x^2_0   & \cdots  & x^{degree}_0  \\
+  1       & x^1_1   & x^2_1   & \cdots  & x^{degree}_1  \\
+  \vdots  & \vdots  & \vdots  & \ddots  & \vdots \\
+  1       & x^1_n   & x^2_n   & \cdots  & x^{degree}_n  \\
+\end{pmatrix}
+\end{equation}
+
       - Give the surface layer concentration (U*[0]) its expected value at the next main time step, according to the computed surface flux
    
       - Iteratively solve for the concentration profile at the next main time step
