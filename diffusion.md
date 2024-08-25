@@ -28,7 +28,7 @@ This sentence uses `$` delimiters to show math inline:
 \end{pmatrix}
 \end{equation}
 
-$$\begin{pmatrix}a & b\\\ c & d\end{pmatrix}$$
+$$\begin{pmatrix}a & b & c\\\ d & e & f\\\ g & h & i\end{pmatrix}$$
 
 ```math
 \begin{bmatrix}X\\Y\end{bmatrix}
