@@ -15,7 +15,7 @@
 - carbon (m3/m3)
 ...specified for each day of year over a full year.
 
-### VU-MALM is configured by default to receive these from the output of the CryoGrid model. 
+**VU-MALM is configured by default to receive these from the output of the CryoGrid model.** 
 
 The CryoGrid model is initialized with prescribed:
 - soil composition (air, water, organic, and mineral volumetric fractions vs. depth)
@@ -26,7 +26,7 @@ Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying t
 
 ## 3. Set-up parameters
 
-On/Off switches, constants, and initial values are specified in _params.py_.
+**On/Off switches, constants, and initial values are specified in _params.py_.**
 Make sure to specify:
   - test
   - test
@@ -42,7 +42,7 @@ If the vertical domain contains subsaturated layers, rapid diffusion through air
 
 ## 4. Running VU-MALM
 
-### Run '_main.py_'. 
+**Run '_main.py_'.** 
 _main.py_ contains calls to every routine, as well as the main computational time loop.
 
 ## Automatic model tuning
