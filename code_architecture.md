@@ -27,7 +27,7 @@
   - Update microbe populations,
       Predict chemistry rates - microbes.py, pathways.py
 
-  - Predict diffusion and diffusive surface flux rates - diffusion.py
+  - Predict diffusion and diffusive surface flux rates - _[diffusion.py](diffusion.md)_
  
   - Predict plant transport and plant-mediated surface flux rates - plants.py
  
