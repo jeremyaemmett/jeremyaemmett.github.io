@@ -19,3 +19,10 @@
 - **prepare output files** | output2.py
 
   ### main computatoinal time loop
+
+  - **get forcing profiles for the day-of-year** | forcing.py
+    
+  - **calculate DOC profiles given temperature, moisture, and carbon forcing profiles**
+ 
+  - **update microbe populations,
+      predict chemistry rates** | microbes.py
