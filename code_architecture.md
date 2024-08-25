@@ -8,8 +8,8 @@
 
   **import packages and subroutines**
 
-  **site data** | data.py
+  **get site data** | data.py
 
-  **forcing data** | forcing.py
+  **get forcing data** | forcing.py
 
   **initialize variables** | init.py
