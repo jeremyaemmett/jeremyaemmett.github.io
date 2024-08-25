@@ -1,4 +1,4 @@
-# Quick Start Guide
+# Code architecture
 
 #### _[&larr; VU-MALM](vu_malm.md)_
 
