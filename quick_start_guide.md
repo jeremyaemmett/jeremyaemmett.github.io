@@ -60,4 +60,4 @@ Checklist:
   - Set autotune_mode = 'run' _or_ 'plot' _in params.py_, depending on the desired function
   - Set the desired sims_per_first_generation, sims_per_generation, and n_generations _in params.py_
 
-autotune/{site}/{autotune_name}
+Output is written to: autotune/{site}/{autotune_name}
