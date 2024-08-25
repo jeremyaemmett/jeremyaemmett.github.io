@@ -22,7 +22,7 @@
 
   - **get forcing profiles for the day-of-year** | forcing.py
     
-  - **calculate DOC profiles given temperature, moisture, and carbon forcing profiles**
+  - calculate DOC profiles given temperature, moisture, and carbon forcing profiles
  
   - **update microbe populations,
       predict chemistry rates** | microbes.py, pathways.py
@@ -37,6 +37,6 @@
  
   - **Write output to file** | output2.py
 
-  - **Print diagnostic output to the terminal**
+  - Print diagnostic output to the terminal
 
-  - **Update the simulation time**
+  - Update the simulation time
