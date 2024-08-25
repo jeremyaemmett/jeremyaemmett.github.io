@@ -48,6 +48,8 @@ If the vertical domain contains subsaturated layers, rapid diffusion through air
 **Run '_main.py_'.** 
 _main.py_ calls every routine and contains the main computational time loop.
 
+## 5. Output files
+
 ## Automatic model tuning
 
 Checklist:
