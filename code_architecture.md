@@ -25,4 +25,14 @@
   - **calculate DOC profiles given temperature, moisture, and carbon forcing profiles**
  
   - **update microbe populations,
-      predict chemistry rates** | microbes.py
+      predict chemistry rates** | microbes.py, pathways.py
+
+  - **predict diffusion and diffusive surface flux rates** | diffusion.py
+ 
+  - **predict plant transport and plant-mediated surface flux rates** | plants.py
+ 
+  - **Adapt the timestep (optional)** | newstep.py
+ 
+  - **Update model chemistry with predicted diffusion & plant rates** | newstep.py
+ 
+  - **Write output** | output2.py
