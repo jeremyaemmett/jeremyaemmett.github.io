@@ -12,7 +12,7 @@
 
 - Get site data - data.py
 
-- Get forcing data - forcing.py
+- Get forcing data - **[forcing.py](forcing.md)**
 
 - Initialize variables - init.py
 
@@ -20,12 +20,12 @@
 
   ### Main computational time loop
 
-  - Get forcing profiles for the day-of-year - forcing.py
+  - Get forcing profiles for the day-of-year - **[forcing.py](forcing.md)**
     
   - Calculate DOC profiles given temperature, moisture, and carbon forcing profiles
  
   - Update microbe populations,
-      Predict chemistry rates - microbes.py, pathways.py
+      Predict chemistry rates - **[microbes.py](microbes.md)**, **[pathways.py](pathways.md)**
 
   - Predict diffusion and diffusive surface flux rates - **[diffusion.py](diffusion.md)**
  
