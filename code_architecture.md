@@ -35,4 +35,8 @@
  
   - **Update model chemistry with predicted diffusion & plant rates** | newstep.py
  
-  - **Write output** | output2.py
+  - **Write output to file** | output2.py
+
+  - **Print diagnostic output to the terminal**
+
+  - **Update the simulation time**
