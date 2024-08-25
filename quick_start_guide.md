@@ -9,13 +9,13 @@
 
 ## Input data
 
-VU-MALM's minimum input data are vertical soil profiles of daily-mean: 
+# VU-MALM's minimum input data are vertical soil profiles of daily-mean: 
 - temperature (degC)
 - moisture (m3/m3)
 - carbon (m3/m3)
 ...specified for each day of year over a full year.
 
-VU-MALM is configured by default to receive these from the output of the CryoGrid model. 
+# VU-MALM is configured by default to receive these from the output of the CryoGrid model. 
 
 The CryoGrid model is initialized with a prescribed:
 - soil composition profile (air, water, organic, and mineral volumetric percentages vs. depth)
