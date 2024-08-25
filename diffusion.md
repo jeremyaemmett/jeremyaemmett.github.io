@@ -16,4 +16,4 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
       - Set up the 'B' matrix
    
-      - Calculate B * U
+      - Calculate the dot product: B "." U
