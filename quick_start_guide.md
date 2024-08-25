@@ -26,9 +26,10 @@ Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying t
 
 ## 3. Set-up parameters
 
-## 4. Running VU-MALM
-
 On/Off switches, constants, and initial values are specified in _params.py_.
+Make sure to specify:
+  - test
+  - test
 
 If the vertical domain contains subsaturated layers, rapid diffusion through air will occur. There are various ways to improve numerical stability:
   - Set 'dt' = {value} <= 0.1/24.0 days
@@ -38,6 +39,8 @@ If the vertical domain contains subsaturated layers, rapid diffusion through air
   - Increase 'diff_n_dt in _params.py_ (the number of diffusion sub-timesteps in timestep dt).
 
   This makes the finite difference scheme 'ring' less between under/overestimated values, in its convergence towards a solution to the Fick's law diffusion equation.
+
+## 4. Running VU-MALM
 
 ### Run '_main.py_'. 
 _main.py_ contains calls to every routine and the main computational time loop.
