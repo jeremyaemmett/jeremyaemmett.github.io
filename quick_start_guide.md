@@ -34,7 +34,7 @@ Make sure to specify:
   - **dz** (layer thicknesses)
   - **diff_n_dt** (number of diffusion scheme sub-timesteps)
   - **write_dt** (output write interval [days])
-  - **test_datetime** (starting datetime of the simulation, e.g. datetime(2022, 8, 1, 0, 0, 0))
+  - **test_datetime** (starting datetime e.g. 'datetime(2022, 8, 1, 0, 0, 0)')
   - **years** (number of simulated years - output will be written in this year [int])
 
 If the vertical domain contains subsaturated layers, rapid diffusion through air will occur. 
