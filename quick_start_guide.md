@@ -26,8 +26,8 @@ Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying t
 
 ## Running VU-MALM
 
-### Run 'main.py'. 
-This is the central code the contains calls to every routine and contains the main computational time loop.
+### Run _'main.py'_. 
+_main.py_ contains calls to every routine and contains the main computational time loop.
 
 If much of the vertical domain contains subsaturated layers, either:
   - Set 'adaptive_dt_flag = True' in _params.py_
