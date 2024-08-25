@@ -14,9 +14,9 @@
 
 - Get forcing data - **[forcing.py](forcing.md)**
 
-- Initialize variables - init.py
+- Initialize variables - **[init.py](init.md)**
 
-- Prepare output files - output2.py
+- Prepare output files - **[output2.py](output2.md)**
 
   ### Main computational time loop
 
@@ -35,7 +35,7 @@
  
   - Update model chemistry with predicted diffusion & plant rates - **[newstep.py](newstep.md)**
  
-  - Write output to file - output2.py
+  - Write output to file - **[output2.py](output2.md)**
 
   - Print diagnostic output to the terminal
 
