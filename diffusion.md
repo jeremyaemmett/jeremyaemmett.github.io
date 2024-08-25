@@ -19,7 +19,7 @@ This sentence uses `$` delimiters to show math inline:
 
         A = test, B = test, and U* = the future concentration profile
 
-$$\begin{bmatrix}a & b & c & d & d\\\ e & f & g & h & h\\\ i & j & k & l & l\\\ m & n & o & p & p\\ q & r & s & t & t\end{bmatrix} = \begin{bmatrix}a & b & c & d & d\\\ e & f & g & h & h\\\ i & j & k & l & l\\\ m & n & o & p & p\\\ q & r & s & t & t\end{bmatrix} \begin{bmatrix}a \\\ b\\\ c\\\ d\\\ d\end{bmatrix}$$ 
+$$\begin{bmatrix}a & b & c & d & d\\\ e & f & g & h & h\\\ i & j & k & l & l\\\ m & n & o & p & p\\\ q & r & s & t & t\end{bmatrix} = \begin{bmatrix}a & b & c & d & d\\\ e & f & g & h & h\\\ i & j & k & l & l\\\ m & n & o & p & p\\\ q & r & s & t & t\end{bmatrix} \begin{bmatrix}a \\\ b\\\ c\\\ d\\\ d\end{bmatrix}$$ 
 
       - Give the surface layer concentration (U*[0]) its expected value at the next main time step, according to the computed surface flux
    
