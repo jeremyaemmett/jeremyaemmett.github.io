@@ -4,6 +4,4 @@
 
 ---
 
-## Codes
-
-**main.py**
+## main.py
