@@ -1,3 +1,5 @@
 # diffusion.py
 
 This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
+
+## def diffusion_cranknicolson2
