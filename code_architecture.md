@@ -10,7 +10,7 @@
 
 - Import packages and subroutines
 
-- Get site data - data.py
+- Get site data - **[data.py](data.md)**
 
 - Get forcing data - **[forcing.py](forcing.md)**
 
@@ -29,11 +29,11 @@
 
   - Predict diffusion and diffusive surface flux rates - **[diffusion.py](diffusion.md)**
  
-  - Predict plant transport and plant-mediated surface flux rates - plants.py
+  - Predict plant transport and plant-mediated surface flux rates - **[plants.py](plants.md)**
  
-  - Adapt the timestep (optional) - newstep.py
+  - Adapt the timestep (optional) - **[newstep.py](newstep.md)**
  
-  - Update model chemistry with predicted diffusion & plant rates - newstep.py
+  - Update model chemistry with predicted diffusion & plant rates - **[newstep.py](newstep.md)**
  
   - Write output to file - output2.py
 
