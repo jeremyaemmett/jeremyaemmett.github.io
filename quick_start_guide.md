@@ -50,7 +50,11 @@ There are various ways to improve numerical stability:
 **Run '_main.py_'.** 
 _main.py_ calls every routine and contains the main computational time loop.
 
-## 5. Output files
+## 5. Output
+
+### File Output
+
+### Terminal Output
 
 ## Automatic model tuning
 
