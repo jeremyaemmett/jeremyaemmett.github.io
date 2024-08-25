@@ -26,14 +26,13 @@ Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying t
 
 ## Running VU-MALM
 
-### Run _'main.py'_. 
-_main.py_ contains calls to every routine and contains the main computational time loop.
+### Run '_main.py_'. 
+_main.py_ contains calls to every routine and the main computational time loop.
 
-If much of the vertical domain contains subsaturated layers, either:
+If much of the vertical domain contains subsaturated layers, to preserve numerical stability, either:
   - Set 'adaptive_dt_flag = True' in _params.py_
   - Set 'dt' = {value <= 0.1/24.0 days}
-To avoid numerical instability (unrealistically high rate magnitudes, NaNs, and positive/negative ringing)
-Numerical stability can be further improved by increasing the 'diff_n_dt in _params.py_ (the number of diffusion sub-timesteps within the main computation timestep).
+Stability is further improved by increasing 'diff_n_dt in _params.py_ (the number of diffusion sub-timesteps within the main computation timestep).
 
 ## Automatic model tuning
 
