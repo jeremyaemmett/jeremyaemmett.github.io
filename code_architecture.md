@@ -6,30 +6,30 @@
 
 ## main.py
 
-### start-up tasks
+### Start-up tasks
 
-- import packages and subroutines
+- Import packages and subroutines
 
-- **get site data** | data.py
+- **Get site data** | data.py
 
-- **get forcing data** | forcing.py
+- **Get forcing data** | forcing.py
 
-- **initialize variables** | init.py
+- **Initialize variables** | init.py
 
-- **prepare output files** | output2.py
+- **Prepare output files** | output2.py
 
-  ### main computatoinal time loop
+  ### Main computational time loop
 
-  - **get forcing profiles for the day-of-year** | forcing.py
+  - **Get forcing profiles for the day-of-year** | forcing.py
     
-  - calculate DOC profiles given temperature, moisture, and carbon forcing profiles
+  - Calculate DOC profiles given temperature, moisture, and carbon forcing profiles
  
-  - **update microbe populations,
-      predict chemistry rates** | microbes.py, pathways.py
+  - **Update microbe populations,
+      Predict chemistry rates** | microbes.py, pathways.py
 
-  - **predict diffusion and diffusive surface flux rates** | diffusion.py
+  - **Predict diffusion and diffusive surface flux rates** | diffusion.py
  
-  - **predict plant transport and plant-mediated surface flux rates** | plants.py
+  - **Predict plant transport and plant-mediated surface flux rates** | plants.py
  
   - **Adapt the timestep (optional)** | newstep.py
  
