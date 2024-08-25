@@ -28,8 +28,11 @@ Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying t
 
 **On/Off switches, constants, and initial values are specified in _params.py_.**
 Make sure to specify:
-  - test
-  - test
+  - dt (main computational timestep [days])
+  - nz (number of vertical layers)
+  - dz (layer thicknesses)
+  - diff_n_dt (number of diffusion scheme sub-timesteps)
+  - write_dt (output write interval [days])
 
 If the vertical domain contains subsaturated layers, rapid diffusion through air will occur. There are various ways to improve numerical stability:
   - Set 'dt' = {value} <= 0.1/24.0 days
@@ -43,7 +46,7 @@ If the vertical domain contains subsaturated layers, rapid diffusion through air
 ## 4. Running VU-MALM
 
 **Run '_main.py_'.** 
-_main.py_ contains calls to every routine, as well as the main computational time loop.
+_main.py_ calls every routine and contains the main computational time loop.
 
 ## Automatic model tuning
 
