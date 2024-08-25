@@ -5,9 +5,9 @@
 
 ---
 
-## Installation
+## 1. Installation
 
-## Input data
+## 2. Input data
 
 ### VU-MALM's minimum input data are vertical soil profiles of daily-mean: 
 - temperature (degC)
@@ -24,12 +24,11 @@ The CryoGrid model is initialized with prescribed:
 
 Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying the name of the CryoGrid output folder, e.g. by setting params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_.
 
-## Running VU-MALM
+## 3. Set-up parameters
 
-### Run '_main.py_'. 
-_main.py_ contains calls to every routine and the main computational time loop.
+## 4. Running VU-MALM
 
-## Recommended settings
+On/Off switches, constants, and initial values are specified in _params.py_.
 
 If the vertical domain contains subsaturated layers, rapid diffusion through air will occur. There are various ways to improve numerical stability:
   - Set 'dt' = {value} <= 0.1/24.0 days
@@ -39,6 +38,9 @@ If the vertical domain contains subsaturated layers, rapid diffusion through air
   - Increase 'diff_n_dt in _params.py_ (the number of diffusion sub-timesteps in timestep dt).
 
   This makes the finite difference scheme 'ring' less between under/overestimated values, in its convergence towards a solution to the Fick's law diffusion equation.
+
+### Run '_main.py_'. 
+_main.py_ contains calls to every routine and the main computational time loop.
 
 ## Automatic model tuning
 
