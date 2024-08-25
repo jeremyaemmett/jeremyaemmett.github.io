@@ -27,6 +27,7 @@ Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying t
 ## 3. Set-up parameters
 
 **On/Off switches, constants, and initial values are specified in _params.py_.**
+
 Make sure to specify:
   - **dt** (main computational timestep [days])
   - **nz** (number of vertical layers)
@@ -34,7 +35,8 @@ Make sure to specify:
   - **diff_n_dt** (number of diffusion scheme sub-timesteps)
   - **write_dt** (output write interval [days])
 
-If the vertical domain contains subsaturated layers, rapid diffusion through air will occur. There are various ways to improve numerical stability:
+If the vertical domain contains subsaturated layers, rapid diffusion through air will occur. 
+There are various ways to improve numerical stability:
   - Set 'dt' = {value} <= 0.1/24.0 days
   - Set 'adaptive_dt_flag = True' in _params.py_.
       
