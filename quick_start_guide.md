@@ -17,12 +17,12 @@
 
 ### VU-MALM is configured by default to receive these from the output of the CryoGrid model. 
 
-The CryoGrid model is initialized with a prescribed:
+The CryoGrid model is initialized with prescribed:
 - soil composition (air, water, organic, and mineral volumetric fractions vs. depth)
 - ERA5 air temperature and precipitation history
 - surface albedo, root decay depth, surface roughness, values, etc.
 
-Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying the name of the output folder, e.g. by setting params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_.
+Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying the name of the CryoGrid output folder, e.g. by setting params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_.
 
 ## Running the model
 
