@@ -52,9 +52,11 @@ _main.py_ calls every routine and contains the main computational time loop.
 
 ## 5. Output
 
-### File Output
+  ### File Output
 
-### Terminal Output
+  ### Console Output
+
+  Prints fluxes every 1st and 15th of each month. Prints detailed profile and yearly budget data every Aug 15th.
 
 ## Automatic model tuning
 
