@@ -29,10 +29,10 @@ Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying t
 ### Run '_main.py_'. 
 _main.py_ contains calls to every routine and the main computational time loop.
 
-If much of the vertical domain contains subsaturated layers, to preserve numerical stability, either:
-  - Set 'adaptive_dt_flag = True' in _params.py_
+If much of the vertical domain contains subsaturated layers, rapid diffusion through air will occur. There are various ways to improve numerical stability:
   - Set 'dt' = {value <= 0.1/24.0 days}
-Stability is further improved by increasing 'diff_n_dt in _params.py_ (the number of diffusion sub-timesteps within the main computation timestep).
+  - Set 'adaptive_dt_flag = True' in _params.py_
+  - Increase 'diff_n_dt in _params.py_ (the number of diffusion sub-timesteps within the main computation timestep).
 
 ## Automatic model tuning
 
