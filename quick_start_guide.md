@@ -15,7 +15,7 @@
 - carbon (m3/m3)
 ...specified for each day of year over a full year.
 
-**VU-MALM is configured by default to receive these from the output of the CryoGrid model.** 
+**VU-MALM is by-default configured to receive these from the output of the CryoGrid model.** 
 
 The CryoGrid model is initialized with prescribed:
 - soil composition (air, water, organic, and mineral volumetric fractions vs. depth)
