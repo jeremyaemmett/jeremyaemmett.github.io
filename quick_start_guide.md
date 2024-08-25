@@ -24,9 +24,11 @@ The CryoGrid model is initialized with prescribed:
 
 Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying the name of the CryoGrid output folder, e.g. by setting params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_.
 
-## Running the model
+## Running VU-MALM
 
-If much of the vertical domain consists of subsaturated layers, either:
+### Run 'main.py'. This is the central code the contains calls to every routine and contains the main computational time loop.
+
+If much of the vertical domain contains subsaturated layers, either:
   - Set 'adaptive_dt_flag = True' in _params.py_
   - Set 'dt' = {value <= 0.1/24.0 days}
 To avoid numerical instability (unrealistically high rate magnitudes, NaNs, and positive/negative ringing)
