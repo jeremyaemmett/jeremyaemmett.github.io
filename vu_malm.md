@@ -12,8 +12,6 @@ A number of accessory codes are included - these assist with standardization of 
 
 #### _[Quick Start Guide](quick_start_guide.md)_
 
-#### _[Input](quick_start_guide.md)_
-
 #### _[Code Architecture](code_architecture.md)_
 
 #### _[Trouble Shooting](quick_start_guide.md)_
