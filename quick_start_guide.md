@@ -55,6 +55,7 @@ _main.py_ calls every routine and contains the main computational time loop.
 ## Automatic model tuning
 
 **1.**
+
 Checklist:
   - Set autotune_flag = True _in params.py_
   - Set autotune_name = {desired folder name for tuning results}
