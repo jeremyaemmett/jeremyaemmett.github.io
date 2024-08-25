@@ -12,8 +12,5 @@ This sentence uses `$` delimiters to show math inline:  $\sqrt{3x-1}+(1+x)^2$
 
       - Calculate layer 'sigma' values from the layer diffusivities:
       
-      - Set up the 'A' matrix
-
-      - Set up the 'B' matrix
-   
-      - Calculate the dot product: B "." U
+      - Set up a linear system in matrix form: A = B dot U,
+        where A = test, B = test, and U = the concentration profile at the next diffusion time step
