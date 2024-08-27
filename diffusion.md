@@ -1,5 +1,8 @@
 # diffusion.py
 
+Source Code:
+[diffusion.py](https://github.com/jeremyaemmett/VU-MALM/blob/main/diffusion.py)
+
 This sentence uses `$` delimiters to show math inline:  
 ```math
 \sqrt{3x-1}+(1+x)^2
