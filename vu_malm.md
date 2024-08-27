@@ -14,6 +14,6 @@ A number of accessory codes are included - these assist with standardization of 
 
 #### _[Code Architecture](code_architecture.md)_
 
-#### _[Full Source Code](code_architecture.md)_
+#### _[Full Source Code](https://github.com/jeremyaemmett/VU-MALM)_
 
 #### _[Trouble Shooting](trouble_shooting.md)_
