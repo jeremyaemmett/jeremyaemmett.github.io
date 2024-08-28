@@ -17,6 +17,8 @@ This sentence uses `$` delimiters to show math inline:
     ## def cn_diffusion
 
       - Calculate layer $\sigma$ values from the layer diffusivities, accounting for the diffusion time step:
+   
+       $\sigma$_{l} = frac{{D_{l}/times dt}{2/times dz^{2}}}
       
       - Set up a linear system in matrix form: A = B dot U*, where:
 
