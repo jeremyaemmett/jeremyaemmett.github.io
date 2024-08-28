@@ -2,7 +2,7 @@
 
 A processed-based model of greenhouse gas dynamics in active layer environments (_Python_), with a focus on microbial biochemistry/population dynamics and methane surface flux prediction. 
 
-Model calculations are inspired by _[Song et al. (2020) - A Microbial-Function Group-Based CH4 Model...](https://atmos.sysu.edu.cn/sites/atmos.prod1.dpcms4.sysu.edu.cn/files/inline-files/song-2020-JAMES.pdf), but are modified and applied with high vertical resolution to a simulated active layer subject to subarctic seasonal freeze-thaw. Driving hydro-thermodynamic forcing data are derived from CryoGrid, a dedicated Cryosphere land-surface model.
+Model calculations are inspired by _[Song et al. (2020) - A Microbial-Function Group-Based CH4 Model...](https://atmos.sysu.edu.cn/sites/atmos.prod1.dpcms4.sysu.edu.cn/files/inline-files/song-2020-JAMES.pdf), with modification and application to a high vertical resolution simulated active layer subject to subarctic seasonal freeze-thaw. Driving hydro-thermodynamic forcing data are derived from CryoGrid, a dedicated Cryosphere land-surface model.
 
 #### _[&larr; Main](index.md)_
 
