@@ -29,11 +29,12 @@ $$\begin{bmatrix}1+\sigma & -\sigma & 0 & 0 & 0\\\ -\sigma & 1+2\sigma & -\sigma
 - Modify the concentration in the surface layer as:
 ```math
 U_{1, t+1} = U_{1, t} + F_{srf} \times dt
+```
    
-      - Iteratively solve for the concentration profile at the next main time step
+- Iteratively solve the linear system for $U_{z, \ t+1}$, the concentration profile at $t+1$.
    
-      - Correct the concentration profile for conservation loss
+- Correct the concentration profile for conservation loss
 
-    - Predict diffusion rates based on the difference between U and U*
+- Predict diffusion rates based on the difference between U and U*
    
 
