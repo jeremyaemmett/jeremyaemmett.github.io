@@ -18,7 +18,7 @@ This sentence uses `$` delimiters to show math inline:
 
       - Calculate layer $\sigma$ values from the layer diffusivities, accounting for the diffusion time step:
    
-       $\sigma$_{l} = /frac{{D_{l}/times dt}{2/times dz^{2}}}
+       $\sigma$_{l} = \frac{{D_{l}/times dt}{2/times dz^{2}}}
       
       - Set up a linear system in matrix form: A = B dot U*, where:
 
