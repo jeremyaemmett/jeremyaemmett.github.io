@@ -22,7 +22,7 @@ This sentence uses `$` delimiters to show math inline:
 
         A = test, B = test, and U* = the future concentration profile
 
-$$\begin{bmatrix}1+\sigma & -\sigma & 0 & 0 & 0\\\ -\sigma & 1+2\sigma & -\sigma & 0 & 0\\\ 0 & -\sigma & 1+2\sigma & -\sigma & 0\\\ 0 & 0 & -\sigma & 1+2\sigma & -\sigma\\\ 0 & 0 & 0 & -\sigma & 1+\sigma\end{bmatrix} = \begin{bmatrix}a & \sigma & c & d & d\\\ e & f & \sigma & h & h\\\ i & j & k & \sigma & l\\\ m & n & o & p & \sigma\\\ q & r & s & t & t\end{bmatrix} \begin{bmatrix}a \\\ b\\\ c\\\ d\\\ d\end{bmatrix}$$ 
+$$\begin{bmatrix}1+\sigma & -\sigma & 0 & 0 & 0\\\ -\sigma & 1+2\sigma & -\sigma & 0 & 0\\\ 0 & -\sigma & 1+2\sigma & -\sigma & 0\\\ 0 & 0 & -\sigma & 1+2\sigma & -\sigma\\\ 0 & 0 & 0 & -\sigma & 1+\sigma\end{bmatrix} = \begin{bmatrix}a & \sigma & c & d & d\\\ \sigma & f & \sigma & h & h\\\ i & \sigma & k & \sigma & l\\\ m & n & \sigma & p & \sigma\\\ q & r & s & \sigma & t\end{bmatrix} \begin{bmatrix}a \\\ b\\\ c\\\ d\\\ d\end{bmatrix}$$ 
 
       - Give the surface layer concentration (U*[0]) its expected value at the next main time step, according to the computed surface flux
    
