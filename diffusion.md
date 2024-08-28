@@ -17,8 +17,10 @@ This sentence uses `$` delimiters to show math inline:
     ## def cn_diffusion
 
       - Calculate layer $\sigma$ values from the layer diffusivities, accounting for the diffusion time step:
-   
+
+       ```math
        \sigma_{l} = \frac{3}{4}
+       ```
       
       - Set up a linear system in matrix form: A = B dot U*, where:
 
