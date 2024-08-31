@@ -38,7 +38,7 @@ Make sure to specify:
 ## 4. Running VU-MALM
 
 **Run '_main.py_'.** 
-_main.py_ calls every routine and contains the main computational time loop.
+_main.py_ calls all routines and contains the main computational time loop.
 
 ## 5. Output
 
