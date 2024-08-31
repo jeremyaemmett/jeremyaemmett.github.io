@@ -1,4 +1,4 @@
-Spanish Conjugation Practice App (Java)
+## Spanish Conjugation Practice App (Java)
 
 ### [Windows](spanish_conjugation_windows.md)
 
