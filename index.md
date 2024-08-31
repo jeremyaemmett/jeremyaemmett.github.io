@@ -11,19 +11,6 @@ Code archive and hobby projects
 ### [Fieldwork Data Repository](data_repository.md)
 
 ## Projects
-Code archive and hobby projects
-
----
-
-## Research
-
-### [VU-MALM](vu_malm.md)
-
-### [Python Toolbox](python_toolbox.md)
-
-### [Fieldwork Data Repository](data_repository.md)
-
-## Projects
 
 ### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
 
