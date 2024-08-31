@@ -25,8 +25,5 @@ Code archive and hobby projects
 
 ## Projects
 
-### [Spanish Conjugation Practice App](python_toolbox.md)
-
-
 ### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
 
