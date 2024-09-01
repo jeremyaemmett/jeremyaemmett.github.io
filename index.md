@@ -10,6 +10,10 @@ Code archive and hobby projects
 
 ### [Fieldwork Data Repository](data_repository.md)
 
+<!---
+
 ## Projects
 
 ### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
+
+--->
