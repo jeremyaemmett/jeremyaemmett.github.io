@@ -16,10 +16,22 @@
 
 ### [Python Toolbox](python_toolbox.md)
 
+
+---
+
+
 ## Hobby Projects
 
 ### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
 
+
+---
+
+
 ## Publications
+
+
+---
+
 
 ## Curriculum Vitae
