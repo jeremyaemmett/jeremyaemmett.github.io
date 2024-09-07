@@ -34,6 +34,8 @@
 
 [Smith, I et al. (2020)](https://www.sciencedirect.com/science/article/abs/pii/S0032063319301874)
 
+[Becerra, P et al. (2021)](https://iopscience.iop.org/article/10.3847/PSJ/ac19a5)
+
 
 ---
 
