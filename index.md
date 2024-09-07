@@ -6,14 +6,12 @@ Code archive and hobby projects
 
 ### [VU-MALM](vu_malm.md)
 
-### [Python Toolbox](python_toolbox.md)
-
 ### [Fieldwork Data Repository](data_repository.md)
 
-<!---
+## Other
 
-## Projects
+### [Python Toolbox](python_toolbox.md)
+
+## Hobby Projects
 
 ### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
-
---->
