@@ -1,4 +1,4 @@
-Code archive and hobby projects
+
 
 ---
 
@@ -15,3 +15,7 @@ Code archive and hobby projects
 ## Hobby Projects
 
 ### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
+
+## Publications
+
+## Curriculum Vitae
