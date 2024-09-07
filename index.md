@@ -30,8 +30,11 @@
 
 ## Publications
 
+[Emmett, J et al. (2020)](https://www.sciencedirect.com/science/article/abs/pii/S0032063319305355)
+
 
 ---
+
 
 
 ## Curriculum Vitae
