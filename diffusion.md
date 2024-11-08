@@ -41,5 +41,13 @@ U_{1, t+1} = U_{1, t} + F_{srf} \times dt
 ## def equilibrium_concentration
 
 ## def schmidt_number
+
+## def transfer_velocity
+
+## def surface_flux
+
+## def diffusivity
+
+## def effective_diffusivity
    
 
