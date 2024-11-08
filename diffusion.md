@@ -3,13 +3,13 @@
 Source Code:
 [diffusion.py](https://github.com/jeremyaemmett/VU-MALM/blob/main/diffusion.py)
 
-Vertical gas diffusion below-ground results from variations in gas concentration between consecutive model layers, with a flow rate within a given layer modulated by material diffusivity:
+Vertical gas diffusion below-ground results from variations in gas concentration between consecutive model layers. The flow rate within a given layer is modulated by its material diffusivity, such that higher diffusivity results in higher flow rates. Diffusivity is inversely proportational to soil pore saturation, reflecting faster rates of gas diffusion through airy as opposed to water-logged material.
 
- Diffusion rates are solved using an implicit Crank-Nicolson (CN) finite difference scheme that treats the permafrost interface as an insulated boundary (through which gas cannot flow) and the uppermost soil layer as an open boundary (by modifying the uppermost layer gas concentration according to the calculated surface flux). The lower insulated boundary is mathematically represented by a zero-derivative in the gas concentration depth-gradient. The change in gas concentration in the uppermost layer is calculated from the surface flux by the formula:
+ Diffusion rates are solved using an implicit Crank-Nicolson (CN) finite difference scheme that treats the permafrost interface as an insulated boundary (through which gas cannot flow, represented there by a zero-derivative gas concentration gradient), and the uppermost soil layer as an open boundary coupled to the atmosphere via a water-to-air interface flux calculation.
 
 ## def diffusion_cranknicolson2
 
-  - Get the subset of layers that are unfrozen (diffusion only occurs in these). This is 'U'
+  - Get the subset of layers 'U' that are unfrozen (where diffusion can occur).
 
   - Calculate surface fluxes, so the surface layer concentration can be modified
 
