@@ -3,7 +3,7 @@
 Source Code:
 [diffusion.py](https://github.com/jeremyaemmett/VU-MALM/blob/main/diffusion.py)
 
-Vertical gas diffusion below-ground results from variations in gas concentration between consecutive model layers. The flow rate within a given layer is modulated by its material diffusivity, such that higher diffusivity results in higher flow rates. Diffusivity is inversely proportational to soil pore saturation, reflecting faster rates of gas diffusion through airy as opposed to water-logged material.
+Vertical gas diffusion below-ground results from variations in gas concentration between model layers. The flow rate within a given layer is modulated by its material diffusivity, such that higher diffusivity results in higher flow rates. Diffusivity is inversely proportational to soil pore saturation, reflecting faster rates of gas diffusion through airy as opposed to water-logged material.
 
  Diffusion rates are solved using an implicit Crank-Nicolson (CN) finite difference scheme that treats the permafrost interface as an insulated boundary (through which gas cannot flow, represented there by a zero-derivative gas concentration gradient), and the uppermost soil layer as an open boundary that is coupled to the atmosphere via a water-to-air interface flux calculation.
 
