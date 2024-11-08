@@ -35,5 +35,11 @@ U_{1, t+1} = U_{1, t} + F_{srf} \times dt
 - Correct the concentration profile for conservation loss
 
 - Predict diffusion rates based on the difference between U and U*
+
+## def partial_pressure
+
+## def equilibrium_concentration
+
+## def schmidt_number
    
 
