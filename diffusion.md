@@ -15,7 +15,7 @@ Vertical gas diffusion below-ground results from variations in gas concentration
 
 ## def cn_diffusion
 
-     - Calculate layer $\sigma$ values from the layer diffusivities, accounting for the diffusion time step:
+  - Calculate layer $\sigma$ values from the layer diffusivities, accounting for the diffusion time step:
 
 ```math
 \sigma_{l} = \frac{D_{z} \times dt}{2 \times dz^{2}}
