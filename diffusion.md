@@ -38,6 +38,10 @@ U_{1, t+1} = U_{1, t} + F_{srf} \times dt
 
 ## def partial_pressure
 
+  - Calculate partial pressure of each gas in air, assuming a total air partial pressure (pa_air) of 101.325e3 Pa, and respective CH4, O2, CO2, and H2 volume fractions (vol_x) of 0.000179, 20.946, 0.0412, 0.00005.
+
+pa_x = (vol_x / 100.0) * pa_air
+
 ## def equilibrium_concentration
 
 ## def schmidt_number
