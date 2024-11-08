@@ -38,11 +38,19 @@ U_{1, t+1} = U_{1, t} + F_{srf} \times dt
 
 ## def partial_pressure
 
-  - Calculate partial pressure of each gas in air, assuming a total air partial pressure (pa_air) of 101.325e3 Pa, and respective CH4, O2, CO2, and H2 volume fractions (vol_x) of 0.000179, 20.946, 0.0412, 0.00005.
+  - Calculate the partial pressure of each gas in air, assuming a total air partial pressure (pa_air) of 101.325e3 Pa, and respective CH4, O2, CO2, and H2 volume fractions (vol_x) of 0.000179, 20.946, 0.0412, 0.00005.
 
 pa_x = (vol_x / 100.0) * pa_air
 
 ## def equilibrium_concentration
+
+ - Calculate the equilibrium concentration of each gas (which would produce a pressure counterbalancing the gas' partial pressure).
+
+    - Calculate Henry's constant (H_x) for each gas, following Sander (2015), using respective CH4, O2, CO2, and H2 leading factors (K_x) of 1.3e-3, 1.3e-3, 3.4e-2 and 7.8e-4, and exponential factors (C_x) of 1700.0, 1500.0, 2400.0 and 530.0.
+  
+      H_x = K_x * exp(C_x * (1 / (T + 273.15) - (1 / 273.15)))
+  
+      
 
 ## def schmidt_number
 
