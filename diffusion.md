@@ -3,10 +3,9 @@
 Source Code:
 [diffusion.py](https://github.com/jeremyaemmett/VU-MALM/blob/main/diffusion.py)
 
-This sentence uses `$` delimiters to show math inline:  
-```math
-\sqrt{3x-1}+(1+x)^2
-```
+Vertical gas diffusion below-ground results from variations in gas concentration between consecutive model layers, with a flow rate within a given layer modulated by material diffusivity:
+
+ Diffusion rates are solved using an implicit Crank-Nicolson (CN) finite difference scheme that treats the permafrost interface as an insulated boundary (through which gas cannot flow) and the uppermost soil layer as an open boundary (by modifying the uppermost layer gas concentration according to the calculated surface flux). The lower insulated boundary is mathematically represented by a zero-derivative in the gas concentration depth-gradient. The change in gas concentration in the uppermost layer is calculated from the surface flux by the formula:
 
 ## def diffusion_cranknicolson2
 
