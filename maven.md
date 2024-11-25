@@ -4,7 +4,7 @@
 
 ---
 
-Ungraduate work in 2012-2014 involved prediction of future observational geometries of the IUVS (Imaging UltraViolet Spectrograph) instrument aboard the MAVEN mars orbiter, to identify optimal time windows for observations of aurorae during the instrument's apoapsis (full-disk) scan phases. Software was developed in an IDL (Interactive Data Language) framework. 
+Ungraduate work in 2012-2014 involved predicting future observational geometries of the IUVS (Imaging UltraViolet Spectrograph) instrument aboard the MAVEN mars orbiter, to identify optimal time windows for observations of aurorae during the instrument's apoapsis (full-disk) scan phases. Software was developed in an IDL (Interactive Data Language) framework. 
 Spacecraft position/velocity and instrument pointing geometry were derived from the NASA SPICE toolkit:
 https://naif.jpl.nasa.gov/pub/naif/pds/pds4/maven/maven_spice/document/spiceds_v001.html
 
