@@ -14,7 +14,7 @@ Scan footprints were represented on cylindrical planetary maps displaying spacec
 
 IDL-generated cylindrical Mars map displaying a select apoapsis scan phase superimposed on magnetic field topology.
 
-A Python re-make is in development, with modularized kernel downloading tools, more sophisticated visualization capabilities, and improved code documentation. This robust code architecture is universally applicable to any spacecraft/instrument provided that SPICE kernels exist and provide coverage for the intended time range.
+A Python re-make is in development, with modularized kernel downloading tools, more sophisticated visualization capabilities, and improved code documentation. This robust code architecture is universally applicable to any spacecraft/instrument provided that SPICE kernels exist and provide coverage for the time range of interest. 
 #### _[Source code](maven1.py)_
 
 ![apoapsis_scans2](https://github.com/user-attachments/assets/14104b63-4a01-481d-9650-3505e6bacac2)
