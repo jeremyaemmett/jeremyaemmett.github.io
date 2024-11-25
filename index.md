@@ -8,7 +8,7 @@
 _Microbial model of methane dynamics in active-layer soils_
 
 ### [Fieldwork Data Repository](data_repository.md) 
-_Soil profile and surface GHG flux data gathered from three study sites at Churchill, Manitoba (Summer 2022, 2023)_
+_Soil profile and surface GHG flux data collected from three study sites at Churchill, Manitoba (Summer 2022, 2023)_
 
 
 ---
