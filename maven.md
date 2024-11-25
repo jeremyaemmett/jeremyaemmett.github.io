@@ -1,19 +1,15 @@
-# VU-MALM
+# Spacecraft observation geometry (in-prep, Python)
 
-Vrije Universiteit Microbial Active Layer Model
+Ungraduate work in 2012-2014 involved prediction of future observational geometries of the IUVS (Imaging UltraViolet Spectrograph) instrument aboard the MAVEN mars orbiter, to identify optimal time windows for observations of aurorae during the instrument's apoapsis (full-disk) scan phases. Software was developed in an IDL (Interactive Data Language) framework.
 
-A 1-D, processed-based, multilayer model of greenhouse gas dynamics in active layer environments (_Python_), with a focus on microbial biochemistry/population dynamics and methane surface flux prediction. 
+Scan footprints were represented on cylindrical planetary maps displaying day/night regions and magnetic field topology.
 
-Model calculations are modified from [Song [2020]](https://atmos.sysu.edu.cn/sites/atmos.prod1.dpcms4.sysu.edu.cn/files/inline-files/song-2020-JAMES.pdf), [Chadburn [2020]](https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2020GB006678), [Reed [2014]](https://www.pnas.org/doi/10.1073/pnas.1313713111), and applied to a high vertical-resolution simulated active layer undergoing seasonal freeze-thaw. Driving hydro-thermodynamic forcing data are derived from [CryoGrid](https://github.com/CryoGrid/CryoGridCommunity_source), a dedicated Cryosphere LSM.
+A Python re-make is in development, for interest's sake, utilizing more modularized kernel downloading tools and more sophisticated visualization capabilities.
+
+
 
 #### _[&larr; Main](index.md)_
 
 ---
 
-#### _[Quick Start Guide](quick_start_guide.md)_
-
-#### _[Code Architecture](code_architecture.md)_
-
-#### _[Full Source Code](https://github.com/jeremyaemmett/VU-MALM)_
-
-#### _[Trouble Shooting](trouble_shooting.md)_
+#### _[Source code](maven1.py)_
