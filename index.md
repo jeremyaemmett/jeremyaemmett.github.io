@@ -4,9 +4,11 @@
 
 ## Research
 
-### [VU-MALM](vu_malm.md) _Microbial model of methane dynamics in active-layer soils_
+### [VU-MALM](vu_malm.md) 
+_Microbial model of methane dynamics in active-layer soils_
 
-### [Fieldwork Data Repository](data_repository.md) _Soil profile data gathered from three study sites at Churchill, Manitoba (Summer 2022, 2023)_
+### [Fieldwork Data Repository](data_repository.md) 
+_Soil profile data gathered from three study sites at Churchill, Manitoba (Summer 2022, 2023)_
 
 
 ---
