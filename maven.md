@@ -8,7 +8,7 @@ Ungraduate work in 2012-2014 involved predicting future observational geometries
 Spacecraft position/velocity and instrument pointing geometry were derived from the NASA SPICE toolkit:
 https://naif.jpl.nasa.gov/pub/naif/pds/pds4/maven/maven_spice/document/spiceds_v001.html
 
-Scan footprints were represented on cylindrical planetary maps displaying spacecraft ground tracks, spectrograph slit footprints, magnetic field topology. Strong contrast between magnetic field open/closed boundaries was interpreted as a proxy for auroral activity potential, while nightside observations were favored.
+Scan footprints were represented on cylindrical planetary maps displaying spacecraft ground tracks, spectrograph slit footprints, magnetic field topology. Strong contrast between magnetic field open/closed boundaries was interpreted as a proxy for auroral activity potential, with nightside observations favored.
 
 ![mavenexample](https://github.com/user-attachments/assets/fda03388-def1-4cd9-b068-cbdd80ea286e)
 
