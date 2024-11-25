@@ -12,17 +12,19 @@
 ---
 
 
-## Other
+## Hobby Projects
 
-### [Python Toolbox](python_toolbox.md)
+### [Spacecraft observation geometry (in-prep, Python)](maven.md)
+
+### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
 
 
 ---
 
 
-## Hobby Projects
+## Other
 
-### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
+### [Python Toolbox](python_toolbox.md)
 
 
 ---
