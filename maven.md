@@ -11,6 +11,7 @@ https://naif.jpl.nasa.gov/pub/naif/pds/pds4/maven/maven_spice/document/spiceds_v
 Scan footprints were represented on cylindrical planetary maps displaying spacecraft ground tracks, spectrograph slit footprints, magnetic field topology. Strong contrast between magnetic field open/closed boundaries was interpreted as a proxy for auroral activity potential, while nightside observations were favored.
 
 ![mavenexample](https://github.com/user-attachments/assets/fda03388-def1-4cd9-b068-cbdd80ea286e)
+
 IDL-generated cylindrical Mars map displaying a select apoapsis scan phase superimposed on magnetic field topology.
 
 A Python re-make is in development, with modularized kernel downloading tools, more sophisticated visualization capabilities, and improved code documentation. This robust code architecture is universally applicable to any spacecraft/instrument with associated SPICE kernels.
