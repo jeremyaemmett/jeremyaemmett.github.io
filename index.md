@@ -46,3 +46,7 @@ _Soil profile and surface GHG flux data gathered from three study sites at Churc
 
 
 ## Curriculum Vitae
+
+### [Academic](Jeremy_Emmett_AcademicCV2.pdf)
+
+### [Concise](Jeremy_Emmett_CV.pdf)
