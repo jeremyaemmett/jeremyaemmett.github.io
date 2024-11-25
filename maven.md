@@ -10,7 +10,7 @@ Ungraduate work in 2012-2014 involved prediction of future observational geometr
 Spacecrat position/velocity and instrument pointing geometry were derived from the NASA SPICE toolkit:
 https://naif.jpl.nasa.gov/pub/naif/pds/pds4/maven/maven_spice/document/spiceds_v001.html
 
-Scan footprints were represented on cylindrical planetary maps displaying spacecraft ground tracks and spectrograph slit footprints, day/night regions, and/or magnetic field topology. Strong contrast between magnetic field open/closed topology was interpreted as a proxy for auroral activity potential.
+Scan footprints were represented on cylindrical planetary maps displaying spacecraft ground tracks and spectrograph slit footprints, day/night regions, and magnetic field topology. Strong contrast between magnetic field open/closed boundaries was interpreted as a proxy for auroral activity potential.
 
 ![mavenexample](https://github.com/user-attachments/assets/fda03388-def1-4cd9-b068-cbdd80ea286e)
 
