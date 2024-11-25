@@ -12,7 +12,7 @@ Scan footprints were represented on cylindrical planetary maps displaying spacec
 
 ![mavenexample](https://github.com/user-attachments/assets/fda03388-def1-4cd9-b068-cbdd80ea286e)
 
-A Python re-make is in development, also utilizing the NASA SPICE toolkit, and improved with modularized kernel downloading, more sophisticated visualization capabilities, and improved code documentation.
+A Python re-make is in development, with modularized kernel downloading tools, more sophisticated visualization capabilities, and improved code documentation.
 #### _[Source code](maven1.py)_
 
 ![apoapsis_scans2](https://github.com/user-attachments/assets/14104b63-4a01-481d-9650-3505e6bacac2)
