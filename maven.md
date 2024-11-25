@@ -16,3 +16,4 @@ A Python re-make is in development, with modularized kernel downloading tools, m
 #### _[Source code](maven1.py)_
 
 ![apoapsis_scans2](https://github.com/user-attachments/assets/14104b63-4a01-481d-9650-3505e6bacac2)
+Two views of an identical apoapsis scan phase. Left: Near face-on view of the apoapsis-facing side of Mars. Right: Near face-on view of the MAVEN spacecraft's highly elliptical orbital plane. "Hourglass". Slit footprints are represented as red projections on the planet's surface. Orange rays indicate the spacecraft position during the apoapsis scan phase as well as lines-of-sight emanating from the IUVS slit midpoint.
