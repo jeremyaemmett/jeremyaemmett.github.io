@@ -1,8 +1,8 @@
-# Apollo 11 Simulated Outbound Trajectory
+# Sextant
 
 #### _[&larr; Main](index.md)_
 
-Apollo 11's translunar trajectory burn and lunar orbit insertion are simulated kinematically with velocity impulses and (Euler) integrated Earth/Moon gravity. The "camera" tracks the spacecraft's retrograde trajectory, and Earth's spacecraft-side is correlated with mission photographs.
+
 
 ---
 
