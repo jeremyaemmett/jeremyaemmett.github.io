@@ -2,7 +2,7 @@
 
 #### _[&larr; Main](index.md)_
 
-_Launch - Outbound Trajectory - Lunar Orbit_
+Apollo 11's launch, outbound, and lunar orbit insertion simulated kinematically with Eulerian-integrated gravitational acceleration. The spacecraft's retrograde trajectory is tracked and the spacecraft-facing Earth side is correlated with mission photographs._
 
 ---
 
