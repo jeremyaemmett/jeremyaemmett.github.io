@@ -1,7 +1,7 @@
 # Spacecraft observation geometry (in-prep, Python)
 
 #### _[&larr; Main](index.md)_
-)
+
 Apollo 11's translunar trajectory burn and lunar orbit insertion are simulated kinematically with velocity impulses and (Eulerian) integrated Earth/Moon gravity. The "camera" tracks the spacecraft's (post-launch) retrograde trajectory, and Earth's spacecraft-facing side is correlated with mission photographs._
 
 ---
