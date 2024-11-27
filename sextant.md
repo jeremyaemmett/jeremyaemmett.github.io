@@ -1,8 +1,8 @@
-# Sextant
+# Sextant (2013)
 
 #### _[&larr; Main](index.md)_
 
-
+A wooden/brass/lacquer sextant made for an "Ancient Astronomies of the World" class at University of Colorado at Boulder.
 
 ---
 
