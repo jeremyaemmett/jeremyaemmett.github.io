@@ -2,7 +2,7 @@
 
 #### _[&larr; Main](index.md)_
 
-Apollo 11's launch, outbound, and lunar orbit insertion simulated kinematically with Eulerian-integrated gravitational acceleration. The spacecraft's retrograde trajectory is tracked and the spacecraft-facing Earth side is correlated with mission photographs._
+Apollo 11's launch, outbound, and lunar orbit insertion simulated kinematically with Eulerian-integrated gravitational acceleration. The "camera" tracks the spacecraft's (post-launch) retrograde trajectory, and Earth's spacecraft-facing side is correlated with mission photographs._
 
 ---
 
