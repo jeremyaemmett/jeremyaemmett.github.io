@@ -6,4 +6,7 @@ Apollo 11's translunar trajectory burn and lunar orbit insertion are simulated k
 
 ---
 
-![apollo2](https://github.com/user-attachments/assets/1208ac55-4caa-4661-97c0-d3815ee26b21) ![apollo_11_gif](https://github.com/user-attachments/assets/96d4ae1f-4a64-45f8-956a-58c730b1526b)
+![sextant3](https://github.com/user-attachments/assets/257a114a-067f-4667-9c18-8c9fdcbd4833)
+
+![sextant1](https://github.com/user-attachments/assets/20d798b5-4bee-4a64-bc17-2c0004307751)![sextant2](https://github.com/user-attachments/assets/72ea8bc7-4136-41ba-bbba-f994f9f2dfe1)
+
