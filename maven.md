@@ -19,3 +19,4 @@ A Python re-make is in development, with modularized kernel downloading tools, m
 
 ![apoapsis_scans2](https://github.com/user-attachments/assets/14104b63-4a01-481d-9650-3505e6bacac2)
 _Two views of an identical apoapsis scan phase. Left: Near face-on view of the apoapsis-facing side of Mars. Right: Near face-on view of the MAVEN spacecraft's highly elliptical orbital plane. Slit footprints are represented as red projections on the planet's surface. Orange rays indicate the spacecraft position during the apoapsis scan phase as well as lines-of-sight emanating from the IUVS slit midpoint. "Hourglasses" result from the slit's left-to-right sweep superimposed on the spacecraft's orbital motion. Left-to-right and top-to-bottom scan sweeps occur with respect to the instrument's default pointing direction, MAVEN's orbital periapsis vector._
+![temp2](https://github.com/user-attachments/assets/2c7b3741-9790-4101-bde1-57017995da36)
