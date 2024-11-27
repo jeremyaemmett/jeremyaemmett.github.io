@@ -16,11 +16,13 @@ _Soil profile and surface GHG flux data collected from three study sites at Chur
 
 ## Hobby Projects
 
-### [Spacecraft observation geometry (in-prep, Python)](maven.md)
+### Code
 
-### [Apollo 11 Simulated Outbound Trajectory (Python)](apollo11.md)
+#### [Spacecraft observation geometry (in-prep, Python)](maven.md)
 
-### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
+#### [Apollo 11 Simulated Outbound Trajectory (Python)](apollo11.md)
+
+#### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
 
 
 ---
