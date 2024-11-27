@@ -22,4 +22,4 @@ _Two views of an identical apoapsis scan phase. Left: Near face-on view of the a
 
 ![temp2](https://github.com/user-attachments/assets/2c7b3741-9790-4101-bde1-57017995da36)
 
-_Animation of a partial apoapsis scan phase, with planet rotation, MAVEN's retrograde/sun-synchronous orbit, and left-right/bottom-up scan "sweeps"._
+_Animation of a partial apoapsis scan phase, with planet rotation, MAVEN's retrograde/sun-synchronous orbit, and right-left/bottom-up scan "sweeps"._
