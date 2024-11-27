@@ -18,7 +18,7 @@ _Soil profile and surface GHG flux data collected from three study sites at Chur
 
 ### [Spacecraft observation geometry (in-prep, Python)](maven.md)
 
-### [Apollo 11 Outbound Trajectory Simulation (Python)](apollo11.md)
+### [Apollo 11 Simulated Outbound Trajectory (Python)](apollo11.md)
 
 ### [Spanish Conjugation Practice App (Java)](spanish_conjugation.md)
 
