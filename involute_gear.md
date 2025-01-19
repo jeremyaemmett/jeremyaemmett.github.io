@@ -11,10 +11,10 @@ A Python implementation of a simulation/tracing method for designing an involute
 ---
 The user specifies tooth number, tooth width, and tooth contact angle.
 
-1. A linear gear slides across edge of a circular gear with circumference 'C'. The linear gear teeth have a prescribed trapezoidal profile, but can assume any closed shape. A constant rotation rate is desired for the circular gear. This is achieved if the tooth carves out a "V"-shaped profile, as shown in cyan. The tooth is iteratively drawn by relating the position of the tooth 'D' along the linear gear, to the rotation angle 'A' of the circle: A = D * 360 / C. The pattern is duplicated according to the desired number of teeth. The 'points' of the resulting teeth are 'blunted' by overplotting a calculated addendum circle.
+1. A linear gear slides across edge of a circular gear with circumference 'C'. The linear gear teeth have a prescribed trapezoidal profile, but can assume any closed shape. A constant rotation rate is desired for the circular gear. This is achieved if the tooth carves out a "V"-shaped profile, as shown in cyan. The tooth is iteratively drawn by relating the position of the tooth 'D' along the linear gear, to the rotation angle 'A' of the circle: A = D * 360 / C. The pattern is duplicated according to the desired number of teeth. The 'points' of the resulting teeth are 'blunted' by overplotting a calculated addendum circle. The plot is saved as a modifiable image in image-pixel coordinates.
 
-2. The gear shape is isolated from the rest of the image with an interior flood-fill algorithm and value filtering.
+2. The gear shape is isolated from the rest of the image with an interior flood-fill algorithm and pixel value filtering.
 
 3. The spur gear's edge is traced with a Canny edge detection algorithm.
 
-4. Image coordinates are converted back to physical coordinates to allow the edge points to be plotted at the correct scale.
+4. Image-pixel coordinates are converted back to physical coordinates to allow the edge points to be plotted at the correct scale.
