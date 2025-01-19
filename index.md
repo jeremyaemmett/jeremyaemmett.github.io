@@ -18,7 +18,9 @@ _Soil profile and surface GHG flux data collected from three study sites at Chur
 
 ### Code
 
-#### [Spacecraft observation geometry (in-prep, Python)](maven.md)
+#### [Involute Spur Gear Designer (Python)](spur_gear.md)
+
+#### [Spacecraft observation geometry (Python)](maven.md)
 
 #### [Apollo 11 Simulated Outbound Trajectory (Python)](apollo11.md)
 
