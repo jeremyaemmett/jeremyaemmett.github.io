@@ -4,6 +4,9 @@ A Python implementation of a simulation-tracing method for designing an involute
 
 **[involute_gear.py](involute_gear.py)**
 
+Source Code:
+[diffusion.py](https://github.com/jeremyaemmett/VU-MALM/blob/main/involute_gear.py)
+
 #### _[&larr; Main](index.md)_
 
 ---
