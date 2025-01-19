@@ -17,4 +17,4 @@ The user specifies tooth number, tooth width, and tooth contact angle.
 
 3. The spur gear's edge is traced with a Canny edge detection algorithm.
 
-4. Image-pixel coordinates are converted back to physical coordinates to allow the edge points to be plotted at the correct scale.
+4. Image-pixel coordinates are converted back to physical coordinates, to allow the edge points to be plotted at the correct scale.
