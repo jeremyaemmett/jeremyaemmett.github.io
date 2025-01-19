@@ -1,8 +1,8 @@
-# Sextant (2013)
+# Tacky Wooden Sextant V1
 
 #### _[&larr; Main](index.md)_
 
-A wooden/brass/lacquer/mylar sextant made for an "Ancient Astronomies of the World" class at University of Colorado at Boulder.
+A wooden/brass/lacquer/mylar sextant made for an "Ancient Astronomies of the World" class at University of Colorado at Boulder (2013).
 
 ---
 
