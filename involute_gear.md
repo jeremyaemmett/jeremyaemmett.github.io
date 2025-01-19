@@ -1,6 +1,6 @@
 # Involute Gear
 
-A Python implementation of a simulation&tracing method for designing an involute spur gear, as described by [Lcamtuf.coredump.cs.](https://lcamtuf.coredump.cx/gcnc/ch6/)
+A Python implementation of a simulation-tracing method for designing an involute spur gear, as described by [Lcamtuf.coredump.cs.](https://lcamtuf.coredump.cx/gcnc/ch6/)
 
 **[involute_gear.py](involute_gear.py)**
 
