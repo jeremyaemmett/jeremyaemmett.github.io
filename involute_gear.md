@@ -4,7 +4,7 @@
 
 #### _[&larr; Main](index.md)_
 
-A simulation and tracing method for designing an involute spur gear, as described by Lcamtuf.coredump.cs.
+A simulation and tracing method for designing an involute spur gear, as described by [Lcamtuf.coredump.cs.](https://lcamtuf.coredump.cx/gcnc/ch6/)
 
 ---
 ![involute_gear_steps](https://github.com/user-attachments/assets/03c3e843-4c55-4504-bb1c-051f6ccfbed6)
