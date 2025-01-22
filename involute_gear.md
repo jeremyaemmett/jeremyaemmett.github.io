@@ -20,4 +20,6 @@ The user specifies tooth number, tooth width, and tooth contact angle.
 
 4. Pixel coordinates are converted back to physical coordinates, to allow the edge points to be plotted at the correct scale and with respect to any specified origin.
 
+[![Watch the video]](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/involute_gear_train.mp4)
+
 https://github.com/user-attachments/assets/76b5787a-f0f3-45e8-9e3d-8c32937e6174
