@@ -19,5 +19,3 @@ The user specifies tooth number, tooth width, and tooth contact angle.
 3. The spur gear's edge is traced with a Canny edge detection algorithm.
 
 4. Pixel coordinates are converted back to physical coordinates, to allow the edge points to be plotted at the correct scale and with respect to any specified origin.
-
-[![Watch the video](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/apoapsis_scans2.png)](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/temp2.mp4)
