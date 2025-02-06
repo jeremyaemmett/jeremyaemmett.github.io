@@ -2,8 +2,6 @@
 
 #### _[&larr; VU-MALM](vu_malm.md)_
 
-![vumalm_diagram1](https://github.com/user-attachments/assets/d478b553-8c9e-428a-a46a-5d973ec80f18)
-
 ---
 
 ## main.py
@@ -42,6 +40,8 @@
   - Print diagnostic output to the terminal
 
   - Update the simulation time
+ 
+![vumalm_diagram1](https://github.com/user-attachments/assets/d478b553-8c9e-428a-a46a-5d973ec80f18)
  
 
 ---
