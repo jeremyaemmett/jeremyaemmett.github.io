@@ -1,7 +1,7 @@
 
-![20190130_borealis-planitia-mars-express](https://github.com/user-attachments/assets/f5bcffa4-0f6c-4307-a316-48f78021d1ee)
-_Borealis Planitia - Mars Express ESA/DLR/FU Berlin/J. Cowart, CC BY-SA 3.0 IGO_
 ---
+![mars_north_cap](https://github.com/user-attachments/assets/f08954cf-dbc5-450d-9940-035b5a879aa2)
+_Borealis Planitia - Mars Express ESA/DLR/FU Berlin/J. Cowart, CC BY-SA 3.0 IGO_
 
 ## Research
 
