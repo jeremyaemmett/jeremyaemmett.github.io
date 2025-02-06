@@ -1,5 +1,5 @@
 
-### ![20190130_borealis-planitia-mars-express](https://github.com/user-attachments/assets/f5bcffa4-0f6c-4307-a316-48f78021d1ee)
+![20190130_borealis-planitia-mars-express](https://github.com/user-attachments/assets/f5bcffa4-0f6c-4307-a316-48f78021d1ee)
 _Borealis Planitia - Mars Express ESA/DLR/FU Berlin/J. Cowart, CC BY-SA 3.0 IGO_
 ---
 
