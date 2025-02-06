@@ -1,8 +1,10 @@
 
 ---
-![mars_north_cap](https://github.com/user-attachments/assets/f08954cf-dbc5-450d-9940-035b5a879aa2)
 
-_Borealis Planitia - Mars Express ESA/DLR/FU Berlin/J. Cowart, CC BY-SA 3.0 IGO_
+![banner](https://github.com/user-attachments/assets/ad8846cb-b5dc-4a3b-9c4e-352b938fc22e)
+
+_Left: Borealis Planitia - Mars Express (Credit ESA/DLR/FU Berlin/J. Cowart, CC BY-SA 3.0 IGO)_
+_Right: Night Methane Flux Chamber Measurements, Churchill, Canada (Credit Dr. Geert Hensgens)_
 
 ## Research
 
