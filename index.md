@@ -1,6 +1,7 @@
 
 ---
 ![mars_north_cap](https://github.com/user-attachments/assets/f08954cf-dbc5-450d-9940-035b5a879aa2)
+
 _Borealis Planitia - Mars Express ESA/DLR/FU Berlin/J. Cowart, CC BY-SA 3.0 IGO_
 
 ## Research
