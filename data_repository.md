@@ -10,6 +10,6 @@
 
 #### _[Root mass density profiles](roots_raw.xlsx)_
 
-#### _[3-Depth Soil Temperatures](temps_raw.xlsx)_
+#### _[3-Depth Soil Temperature, Moisture, Salinity Profiles](temps_raw.xlsx)_
 
 #### _[Gene concentrations (16s, mcrA, pmoA)](genes_raw.xlsx)_
