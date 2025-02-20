@@ -12,7 +12,7 @@ Source Code:
 ---
 The user specifies tooth number, tooth width, and tooth contact angle.
 
-1. A trapezoid-shaped tooth on a linear rack slides across the edge of a circular gear with circumference 'C'. A constant rotation rate is desired for the circular gear. The circular gear must sweep out an angle 'A' if the rack tooth travels distance D, by the relation: A = D * 360 / C. A 'V' shape is created if the rack tooth is allowed to 'carve' into the circular gear. The pattern is symmetrically duplicated based on the desired tooth number. The teeth are 'blunted' by overplotting a calculated addendum circle. The plot is saved as a modifiable image.
+1. A trapezoid-shaped tooth on a linear rack slides across the edge of a circular gear with circumference 'C'. A constant rotation rate is desired for the circular gear. The circular gear must sweep out an angle 'A' while the rack tooth travels distance D, by the relation: A = D * 360 / C. A 'V' shape is created if the rack tooth is allowed to 'carve' into the circular gear. The pattern is symmetrically duplicated based on the desired tooth number. The teeth are 'blunted' by overplotting a calculated addendum circle. The plot is saved as a modifiable image.
 
 2. The gear's shape is highlighted with an interior flood-fill algorithm and a pixel value filter.
 
