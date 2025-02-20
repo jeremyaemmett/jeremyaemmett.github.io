@@ -9,13 +9,12 @@ Source Code:
 
 A simple GUI interface to combine and/or split pages from different PDF files, to create a new PDF file.
 
-Original PDFs:
+Example original PDFs:
 
 [Act of Abjuration, United Netherlands, 1581](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Act_of_Abjuration_UnitedNetherlands1581.pdf)
-
 [Declaration of Independence, United States, 1776](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Dec_of_Independence_UnitedStates1776.pdf)
 
-New PDF:
+Result:
 
 [Combined PDF](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Combined.pdf)
 
