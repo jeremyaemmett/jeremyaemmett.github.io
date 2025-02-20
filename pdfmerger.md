@@ -11,8 +11,9 @@ A simple GUI interface to combine and/or split pages from different PDF files, t
 
 Example original PDFs:
 
-[Act of Abjuration, United Netherlands, 1581](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Act_of_Abjuration_UnitedNetherlands1581.pdf)
-[Declaration of Independence, United States, 1776](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Dec_of_Independence_UnitedStates1776.pdf)
+1) [Act of Abjuration, United Netherlands, 1581](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Act_of_Abjuration_UnitedNetherlands1581.pdf)
+
+2) [Declaration of Independence, United States, 1776](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Dec_of_Independence_UnitedStates1776.pdf)
 
 Result:
 
