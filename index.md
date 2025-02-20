@@ -28,6 +28,8 @@ _Soil profile and surface GHG flux data collected from three study sites at Chur
 
 #### [Apollo 11 Simulated Outbound Trajectory (Python)](apollo11.md)
 
+#### [PDF Page Merger/Splitter (Python)](pdfmerger.md)
+
 ### Handiwork
 
 #### [Sextant V1](sextant.md)
