@@ -19,5 +19,5 @@ New PDF:
 
 [Combined PDF](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Combined.pdf)
 
-<img src="https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/PDFmerge_Step1.png" width="1000" height="400">
+<img src="https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/PDFmerge_Step1.png" width="1200" height="400">
 <img src="https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/PDFmerge_Steps_2_3.png" width="800" height="375">
