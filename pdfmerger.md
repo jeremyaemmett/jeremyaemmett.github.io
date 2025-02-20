@@ -7,7 +7,7 @@
 Source Code:
 [pdfmerge.py](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/pdfmerge.py)
 
-A simple GUI interface for combining and/or splitting pages from different PDF files, to create a new PDF file.
+A simple GUI interface to combine and/or split pages from different PDF files, to create a new PDF file.
 
 Original PDFs:
 
