@@ -15,9 +15,7 @@ Original PDFs:
 
 ![PDFmerge_Step1](https://github.com/user-attachments/assets/a6512293-d8b0-4e88-9860-5c7458c62889)
 
-![PDFmerge_Steps_2_3](https://github.com/user-attachments/assets/0dfc7d2b-4294-4689-92d6-4eb16bfabdbe)
-<img src="[https://your-image-url.type](https://github.com/user-attachments/assets/0dfc7d2b-4294-4689-92d6-4eb16bfabdbe)" width="100" height="100">
-<img src="https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/PDFmerge_Step3.png" width="100" height="100">
+<img src="https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/PDFmerge_Steps_2_3.png" width="100" height="100">
 
 New PDF:
 [Combined PDF](https://github.com/jeremyaemmett/jeremyaemmett.github.io/blob/main/Combined.pdf)
