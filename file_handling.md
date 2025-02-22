@@ -3,12 +3,17 @@
 
 ---
 
-#### Find all files in a directory
+#### Find all files in a directory, containing a given substring
 
 ```python
-    # Find all files in the current generation
-    genpath = 'C:/Users/Jeremy/Desktop/Churchill_Data/modelTune/' + site + '/' + str(gen) + '/'
-    files = [f for f in listdir(genpath) if isfile(join(genpath, f))]
+import os
+
+def files_with_substring(folder, substring):
+
+    # Find all files in the specified folder
+    files = [f for f in os.listdir(folder) if os.path.isfile(os.path.join(folder, f)) and substring in f]
+
+    return files
 ```
 
 #### Find files by type
