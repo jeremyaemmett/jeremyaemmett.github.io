@@ -14,6 +14,7 @@ Model calculations are modified from [Song [2020]](https://atmos.sysu.edu.cn/sit
 
 #### _[Code Architecture](code_architecture.md)_
 
-#### _[Full Source Code](https://github.com/jeremyaemmett/VU-MALM)_
-
-#### _[Trouble Shooting](trouble_shooting.md)_
+Full Source Code
+#### _[V1](https://github.com/jeremyaemmett/VU-MALM)_
+Clean re-write (in-progress)
+#### _[V2](https://github.com/jeremyaemmett/VU-MALM)_
