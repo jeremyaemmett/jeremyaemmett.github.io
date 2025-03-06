@@ -16,7 +16,7 @@
 
 - Initialize variables - **[initialize.py](init.md)**
 
-- Prepare output files - **[output2.py](output2.md)**
+- Prepare output files - **[output.py](output2.md)**
 
   ### Main computational time loop
 
@@ -35,7 +35,7 @@
  
   - Update model chemistry with predicted diffusion & plant rates - **[newstep.py](newstep.md)**
  
-  - Write output to file - **[output2.py](output2.md)**
+  - Write output to file - **[output.py](output2.md)**
 
   - Print diagnostic output to the terminal
 
