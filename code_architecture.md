@@ -14,7 +14,7 @@
 
 - Get forcing data - **[forcing.py](forcing.md)**
 
-- Initialize variables - **[init.py](init.md)**
+- Initialize variables - **[initialize.py](init.md)**
 
 - Prepare output files - **[output2.py](output2.md)**
 
