@@ -41,9 +41,6 @@
 
   - Update the simulation time
  
-![vumalm_diagram1](https://github.com/user-attachments/assets/d478b553-8c9e-428a-a46a-5d973ec80f18)
- 
-
 ---
 
 
