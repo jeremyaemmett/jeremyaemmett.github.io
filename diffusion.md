@@ -1,7 +1,7 @@
 # diffusion.py
 
 Source Code:
-[diffusion.py](https://github.com/jeremyaemmett/VU-MALM/blob/main/diffusion.py)
+[diffusion.py](https://github.com/jeremyaemmett/VU-MALM-V2/blob/main/diffusion.py)
 
 ![vumalm_transport1](https://github.com/user-attachments/assets/17bafe12-188a-48fe-93dc-58c1833157f5)
 
