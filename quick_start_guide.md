@@ -15,7 +15,7 @@
 - carbon (m3/m3)
 ...specified for each day of year over a full year.
 
-These input data can for example be extrapolated by dedicated land-surface models, e.g. CryoGrid.
+These input data can, for example, be extrapolated separately by land-surface models, e.g. CryoGrid.
 CryoGrid is initialized with prescribed:
 - soil composition (air, water, organic, and mineral volumetric fractions vs. depth)
 - ERA5 air temperature and precipitation history
@@ -37,6 +37,9 @@ Make sure to specify:
   - **write_dt** (output write interval [days])
   - **start_datetime** (starting datetime e.g. 'datetime(2022, 8, 1, 0, 0, 0)')
   - **end_datetime** (ending datetime e.g. 'datetime(2022, 8, 1, 0, 0, 0)')
+  - **instant_diffusion*** (set 'True' to assume instant layer-atmosphere diffusion for layers above the water table)
+  - **interface_flux** (set 'True' to diffusively couple concentrations in the water table layer to concentratios in the overlying sub-saturated column)
+  - **gaussian_profile*** (set 'True' to initiate the model with gaussian concentration profiles, for testing)
 
 Chemical species, chemical species attributes, reaction pathways, reaction parameters, and associated microbe groups are specified by the user in standard-formatted dictionary blocks.
 
