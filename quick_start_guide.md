@@ -50,8 +50,4 @@ _main.py_ calls all routines and contains the main computational time loop.
 
 ## 5. Output
 
-  ### File Output
-
-  ### Console Output
-
-  Prints time-stamped output to ASCII files every write_timestep.
+  _output.py_ writes time-stamped output to ASCII files every write_timestep.
