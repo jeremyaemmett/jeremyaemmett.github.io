@@ -15,12 +15,13 @@
 - carbon (m3/m3)
 ...specified for each day of year over a full year.
 
-The CryoGrid model is initialized with prescribed:
+These input data can for example be extrapolated by dedicated land-surface models, e.g. CryoGrid.
+CryoGrid is initialized with prescribed:
 - soil composition (air, water, organic, and mineral volumetric fractions vs. depth)
 - ERA5 air temperature and precipitation history
 - surface albedo, root decay depth, surface roughness, values, etc.
 
-Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying the name of the CryoGrid output folder, e.g. by setting params.cryogrid_name = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _params.py_.
+Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying the name of the forcing data folder, e.g. by setting forcing_file = 'palsa_low_Drying0p0015_z00p1_rootDepth0p1' in _parameters.py_.
 
 ## 3. Set-up parameters
 
@@ -28,12 +29,16 @@ Choose desired CryoGrid-output data ('T.txt', 'water.txt', etc.) by specifying t
 
 Make sure to specify:
   - **dt** (main computational timestep [days])
-  - **nz** (number of vertical layers)
-  - **dz** (layer thicknesses)
+  - **dz0** (initial layer thickness)
+  - **growth_rate** (factor by which layer thickness grows exponentially)
+  - **total_depth** (total depth of the layer column (m))
   - **diff_n_dt** (number of diffusion scheme sub-timesteps)
+  - **diff_n_dz** (number of diffusion layers (uniform thickness) to total_depth)
   - **write_dt** (output write interval [days])
-  - **test_datetime** (starting datetime e.g. 'datetime(2022, 8, 1, 0, 0, 0)')
-  - **years** (number of simulated years - output will be written in this year [int])
+  - **start_datetime** (starting datetime e.g. 'datetime(2022, 8, 1, 0, 0, 0)')
+  - **end_datetime** (ending datetime e.g. 'datetime(2022, 8, 1, 0, 0, 0)')
+
+Chemical species, chemical species attributes, reaction pathways, reaction parameters, and associated microbe groups are specified by the user in standard-formatted dictionary blocks.
 
 ## 4. Running VU-MALM
 
@@ -46,19 +51,4 @@ _main.py_ calls all routines and contains the main computational time loop.
 
   ### Console Output
 
-  Prints fluxes every 1st and 15th of each month. Prints detailed profile and yearly budget data every Aug 15th.
-
-## Automatic model tuning
-
-**1.**
-
-Checklist:
-  - Set autotune_flag = True _in params.py_
-  - Set autotune_name = {desired folder name for tuning results}
-  - Set autotune_mode = 'run' _or_ 'plot' _in params.py_, depending on the desired function
-  - Set the desired sims_per_first_generation, sims_per_generation, and n_generations _in params.py_
-
-**2.**
-- Run autotune.py
-  
-  Output is written to: autotune/{site}/{autotune_name}
+  Prints time-stamped output to ASCII files every write_timestep.
