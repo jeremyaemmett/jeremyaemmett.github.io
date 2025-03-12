@@ -15,7 +15,7 @@ _Microbial model of methane dynamics in active-layer soils_
 _Soil profile and surface GHG flux data collected from three study sites at Churchill, Manitoba (Summer 2022, 2023)_
 
 ### [PhD-NMSU-MarsPLD](MarsPLD.md)
-_Microbial model of methane dynamics in active-layer soils_
+_Codes associated with PhD work investigating the climate record in Mars' Polar Layered Deposits with global paleoclimate modelling_
 
 ---
 
